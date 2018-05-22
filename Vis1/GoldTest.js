@@ -53,6 +53,8 @@ var	svg = d3.select("body")
                .append("g")
                .attr("transform",
                    "translate(" + margin.left + "," + margin.top + ")");
+
+//TODO get our own data as champion average gold over time
 var data = [
     {"date":"9-Apr-12","close":436,"open":9.04},
     {"date":"7-Apr-12","close":221,"open":4.02},
@@ -106,14 +108,14 @@ svg.append("g")
 // edit the Y Axis Left
 svg.append("g")
    .attr("class", "y axis")
-   .style("fill", "steelblue")
+   .style("fill", "black")
    .attr("id", "blueAxis")
    .call(yAxisLeft);
 
 svg.append("g")
    .attr("class", "y axis")
    .attr("transform", "translate(" + width + " ,0)")
-   .style("fill", "red")
+   .style("fill", "black")
    .attr("id", "redAxis")
    .call(yAxisRight);
 
@@ -129,6 +131,7 @@ svg.append("text")
            newOpacity = active ? 0 : 1;
        // Hide or show the elements
        d3.select("#blueLine").style("opacity", newOpacity);
+       //TODO rename from blue axis
        d3.select("#blueAxis").style("opacity", newOpacity);
        // Update whether or not the elements are active
        blueLine.active = active;
@@ -147,6 +150,7 @@ svg.append("text")
            newOpacity = active ? 0 : 1;
        // Hide or show the elements
        d3.select("#redLine").style("opacity", newOpacity);
+       //TODO rename from redAxis
        d3.select("#redAxis").style("opacity", newOpacity);
        // Update whether or not the elements are active
        redLine.active = active;
