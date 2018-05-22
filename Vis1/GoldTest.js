@@ -18,8 +18,10 @@ var	margin = {top: 30, right: 40, bottom: 70, left: 50},
     width = 600 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
+//TODO Remove
 var	parseDate = d3.time.format("%d-%b-%y").parse;
 
+//TODO remove this time.scale, replace with 0-MatchLength
 var	x = d3.time.scale().range([0, width]);
 var	y0 = d3.scale.linear().range([height, 0]);
 var	y1 = d3.scale.linear().range([height, 0]);
@@ -30,6 +32,7 @@ var	xAxis = d3.svg.axis().scale(x)
 var	yAxisLeft = d3.svg.axis().scale(y0)
                      .orient("left").ticks(5);
 
+//TODO try and remove two different scales y1 == right scale
 var	yAxisRight = d3.svg.axis().scale(y1)
                       .orient("right").ticks(5);
 
@@ -64,12 +67,19 @@ data.forEach(function(d) {
     d.open = +d.open;
 });
 
+//TODO remove date associations and replace with minutes
 // Scale the range of the data
 x.domain(d3.extent(data, function(d) { return d.date; }));
 y0.domain([0, d3.max(data, function(d) {
     return Math.max(d.close); })]);
 y1.domain([0, d3.max(data, function(d) {
     return Math.max(d.open); })]);
+
+
+
+
+
+//Assisting functions, do not touch for now unless you want to format presentation
 
 svg.append("path")
    .attr("class", "line")
