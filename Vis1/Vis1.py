@@ -182,9 +182,6 @@ with open('matchinfo.csv', "r") as data:
             output.write("]},\n")
         output.write(']')
 
-
-
-
 data.close()
 
 
