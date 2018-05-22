@@ -1,13 +1,17 @@
 import numpy as np
+import pandas as pd
 import csv
 
-filename = 'matchinfo.csv'
+filename = 'data/matchinfo.csv'
 
 '''combo, wins, games'''
 
 win_rates = []
 win_rates_champ = []
 
+def nice_print(arr):
+    for row in arr:
+        print(row)
 
 def check_combo(combo):
     count = 0
@@ -33,8 +37,12 @@ def check(champ):
         count+= 1
     return index
 
+
+associations = [[0]]
+print(associations)
 with open('matchinfo.csv', "r") as data:
     read = csv.reader(data)
+    next(read, None)
     for row in read:
         b_win= row[5]
         r_win = row[6]
@@ -56,35 +64,136 @@ with open('matchinfo.csv', "r") as data:
         index_b = check_combo(combo_b)
         index_r = check_combo(combo_r)
 
-        if b_win == 1:
-            if index_b == -1:
-                win_rates.append([combo_b, 1, 1])
-            else:
-                win_rates[index_b][1] += 1
-                win_rates[index_b][2] += 1
-            if index_r == -1:
-                win_rates.append([combo_b, 0, 1])
-            else:
-                win_rates[index_r][2] += 1
+        #Adds new Champ in assocations
+        if "flare.adc." + b_adc not in associations[0]:
+            associations[0].append("flare.adc." + b_adc)
+            temp = ["flare.adc." + b_adc]
+            for i in range(len(associations[0])):
+                temp.append(0)
+            associations.append(temp)
+        if "flare.adc." + r_adc not in associations[0]:
+            associations[0].append("flare.adc." + r_adc)
+            temp = ["flare.adc." + r_adc]
+            for i in range(len(associations[0])):
+                temp.append(0)
+            associations.append(temp)
+        length  = len(associations[0])
+        for row in associations:
+            if len(row) != length:
+                for  i in range(length - len(row)):
+                    row.append(0)
+print(associations)
+data.close()
+with open('matchinfo.csv', "r") as data:
+    read = csv.reader(data)
+    next(read, None)
+    for row in read:
+        b_win= row[5]
+        r_win = row[6]
+        b_top = row[10]
+        b_jg = row[12]
+        b_mid = row[14]
+        b_adc = row[16]
+        b_sup = row[18]
 
-            index_b_top = check(b_top)
-            if index_b_top == -1:
-                win_rates_champ.append([b_top, 1, 1])
+        r_top = row[20]
+        r_jg = row[22]
+        r_mid = row[24]
+        r_adc = row[26]
+        r_sup = row[28]
 
-        else:
-            if index_b == -1:
-                win_rates.append([combo_b, 0, 1])
-            else:
-                win_rates[index_b][2] += 1
-            if index_r == -1:
-                win_rates.append([combo_b, 1, 1])
-            else:
-                win_rates[index_r][1] += 1
-                win_rates[index_r][2] += 1
+        if "flare.sup." + b_sup not in associations[0]:
+            associations[0].append("flare.sup." + b_sup)
+            temp = ["flare.sup." + b_sup]
+            for i in range(len(associations[0])):
+                temp.append(0)
+            associations.append(temp)
+        if "flare.sup." + r_sup not in associations[0]:
+            associations[0].append("flare.sup." + r_sup)
+            temp = ["flare.sup." + r_sup]
+            for i in range(len(associations[0])):
+                temp.append(0)
+            associations.append(temp)
+        length  = len(associations[0])
+        for row in associations:
+            if len(row) != length:
+                for  i in range(length - len(row)):
+                    row.append(0)
+
+    wins = associations
+    games_played = associations
+data.close()
+with open('matchinfo.csv', "r") as data:
+    read = csv.reader(data)
+    next(read, None)
+    for row in read:
+        b_win= row[5]
+        r_win = row[6]
+        b_top = row[10]
+        b_jg = row[12]
+        b_mid = row[14]
+        b_adc = row[16]
+        b_sup = row[18]
+
+        r_top = row[20]
+        r_jg = row[22]
+        r_mid = row[24]
+        r_adc = row[26]
+        r_sup = row[28]
+
+        b_adc_index = associations[0].index("flare.adc." + b_adc)
+        r_adc_index = associations[0].index("flare.adc." + r_adc)
+
+        b_sup_index = associations[0].index("flare.sup." + b_sup)
+        r_sup_index = associations[0].index("flare.sup." + r_sup)
+
+        print(b_sup_index, b_adc_index)
+
+        associations[b_adc_index][b_sup_index] = 1
+        associations[b_sup_index][b_adc_index] = 1
+        associations[r_adc_index][r_sup_index] = 1
+        associations[r_sup_index][r_adc_index] = 1
+
+        if associations[b_adc_index][b_sup_index] != 1:
+            associations[b_adc_index][b_sup_index] = 1
+        if associations[r_adc_index][r_sup_index] != 1:
+            associations[r_adc_index][r_sup_index] = 1
+        if associations[b_sup_index][b_adc_index] != 1:
+            associations[b_sup_index][b_adc_index] = 1
+        if associations[r_sup_index][r_adc_index] != 1:
+            associations[r_sup_index][r_adc_index] = 1
+    indexes = associations[0]
+    associations = associations[1:]
+    nice_print(associations)
+
+    # sample line {"name": "flare.sup.Thresh", "size": 10000, "imports": ["flare.adc.Jinx", "flare.adc.Lucian"]}
+    with open('flare.json', 'w') as output:
+        output.write('[\n')
+        for test in associations:
+            output.write("{\"name\":" + '\"' + test[0] + '\",' + "\"size\":1000, \"imports\": [")
+            indices = [i for i, x in enumerate(test) if x == 1]
+            print(indices)
+            for ind in range(len(indices)):
+                if ind != len(indices) - 1:
+                    print("whoo")
+                    output.write("\"" + indexes[indices[ind]] + "\", ")
+                else:
+                    output.write("\"" + indexes[indices[ind]] + "\"")
+            output.write("]},\n")
+        output.write(']')
+
+
+
+
+data.close()
+
+
 
 max_1 = ''
 max_2 = ''
 max_3 = ''
+
+
 
 max_1_val = 0
 max_2_val = 0
@@ -93,7 +202,7 @@ max_3_val = 0
 pop_1 = ''
 pop_2 = ''
 pop_3 = ''
-
+'''
 for row in win_rates:
     if float(row[1]/row[2] >= max_1_val) and row[2] > 10:
         max_1_val = row[1]/row[2]
@@ -132,7 +241,7 @@ print(str(temp) + " " + str(float(temp[1] / temp[2])))
 print(pop_3)
 temp = win_rates[check_combo(pop_3)]
 print(str(temp) + " " + str(float(temp[1] / temp[2])))
-
+'''
 
 
 
