@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import csv
 
+
 filename = 'data/matchinfo.csv'
 
 '''combo, wins, games'''
