@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>OurImageMenu</title>
+</head>
+<body>
+<h1>Welcome to the Summoners rift</h1>
+
+<p>Choose a lane to see various stats</p>
+
+<img src="MAP.png" width="1024" height="650" alt="Summoners Rift" usemap="#riftmap" id="mappa" onclick="showCoords(event)">
+
+<map name="riftmap" >
+    <!--start coordinate left bottom X, start left Y, width, height-->
+    <area shape="rect" coords="0,0,250,729" alt="TOP" title="bulky boi">
+    <area shape="rect" coords="0,251,250,729" alt="MID" title="ability boi">
+    <area shape="rect" coords="400,500,250,8" alt="DUO" title="2 salty bois">
+    <area shape="rect" coords="200,750,250,8" alt="JUN" title="sneeky boi">
+</map>
+
+<script>
+    function showCoords(event) {
+        var x = event.clientX;
+        var y = event.clientY;
+        var coords = "X coords: " + x + ", Y coords: " + y;
+        document.getElementById("demo").innerHTML = coords;
+    }
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html>
