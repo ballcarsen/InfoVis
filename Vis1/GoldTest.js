@@ -6,7 +6,7 @@
     // Currently it applies to date-types, simplify the code
 
 //TODO role to role gold comparisons
-    //TODO Scale 2 charts uniformly over time for comparisons
+    //TODO Scale 2 charts uniformly over time for comparisons DONE
     
 //TODO consolidate all 3 visualizations
 
@@ -29,10 +29,12 @@ var	y1 = d3.scale.linear().range([height, 0]);
 var	xAxis = d3.svg.axis().scale(x)
                  .orient("bottom").ticks(5);
 
+//Just axis scale, regardless of actual data, CAREFUL
 var	yAxisLeft = d3.svg.axis().scale(y0)
                      .orient("left").ticks(5);
 
 //TODO try and remove two different scales y1 == right scale
+//This represents the scale of data, regardless of the results
 var	yAxisRight = d3.svg.axis().scale(y1)
                       .orient("right").ticks(5);
 
@@ -62,18 +64,22 @@ var data = [
 
 // Get the data
 data.forEach(function(d) {
+    //TODO d.time = +d.time (from the file)
     d.date = parseDate(d.date);
     d.close = +d.close;
     d.open = +d.open;
 });
 
 //TODO remove date associations and replace with minutes
-// Scale the range of the data
+// Input the extent of the data
 x.domain(d3.extent(data, function(d) { return d.date; }));
+
+//TODO extent of gold income - how much is the max
 y0.domain([0, d3.max(data, function(d) {
     return Math.max(d.close); })]);
 y1.domain([0, d3.max(data, function(d) {
-    return Math.max(d.open); })]);
+    //TODO close - open scales with open elements
+    return Math.max(d.close); })]);
 
 
 
