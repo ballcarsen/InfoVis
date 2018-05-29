@@ -1,0 +1,3959 @@
+{ "ADC Support Pairs": 
+	[
+		{
+			"ADC":"Jinx",
+			"Support":"Janna",
+			"Wins":21,
+			"Games":31,
+			"Win Rate":0.68
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Thresh",
+			"Wins":93,
+			"Games":169,
+			"Win Rate":0.55
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Leona",
+			"Wins":3,
+			"Games":4,
+			"Win Rate":0.75
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Annie",
+			"Wins":33,
+			"Games":55,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Annie",
+			"Wins":46,
+			"Games":82,
+			"Win Rate":0.56
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Janna",
+			"Wins":55,
+			"Games":114,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Janna",
+			"Wins":41,
+			"Games":78,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Janna",
+			"Wins":40,
+			"Games":75,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Thresh",
+			"Wins":63,
+			"Games":113,
+			"Win Rate":0.56
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Nami",
+			"Wins":10,
+			"Games":22,
+			"Win Rate":0.45
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Annie",
+			"Wins":4,
+			"Games":10,
+			"Win Rate":0.4
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Blitzcrank",
+			"Wins":3,
+			"Games":4,
+			"Win Rate":0.75
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Morgana",
+			"Wins":24,
+			"Games":50,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Nami",
+			"Wins":31,
+			"Games":66,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Morgana",
+			"Wins":6,
+			"Games":15,
+			"Win Rate":0.4
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Janna",
+			"Wins":18,
+			"Games":38,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Annie",
+			"Wins":23,
+			"Games":47,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Leona",
+			"Wins":19,
+			"Games":34,
+			"Win Rate":0.56
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Blitzcrank",
+			"Wins":11,
+			"Games":31,
+			"Win Rate":0.35
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Morgana",
+			"Wins":18,
+			"Games":42,
+			"Win Rate":0.43
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Nami",
+			"Wins":14,
+			"Games":32,
+			"Win Rate":0.44
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Janna",
+			"Wins":58,
+			"Games":113,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Morgana",
+			"Wins":13,
+			"Games":42,
+			"Win Rate":0.31
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Janna",
+			"Wins":22,
+			"Games":49,
+			"Win Rate":0.45
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Janna",
+			"Wins":22,
+			"Games":44,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Thresh",
+			"Wins":152,
+			"Games":334,
+			"Win Rate":0.46
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Morgana",
+			"Wins":33,
+			"Games":74,
+			"Win Rate":0.45
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Annie",
+			"Wins":18,
+			"Games":34,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Morgana",
+			"Wins":28,
+			"Games":53,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Nami",
+			"Wins":2,
+			"Games":6,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Morgana",
+			"Wins":15,
+			"Games":35,
+			"Win Rate":0.43
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Janna",
+			"Wins":66,
+			"Games":120,
+			"Win Rate":0.55
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Alistar",
+			"Wins":130,
+			"Games":238,
+			"Win Rate":0.55
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Annie",
+			"Wins":1,
+			"Games":5,
+			"Win Rate":0.2
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Janna",
+			"Wins":26,
+			"Games":58,
+			"Win Rate":0.45
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Thresh",
+			"Wins":4,
+			"Games":11,
+			"Win Rate":0.36
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Leona",
+			"Wins":10,
+			"Games":24,
+			"Win Rate":0.42
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Braum",
+			"Wins":2,
+			"Games":7,
+			"Win Rate":0.29
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Thresh",
+			"Wins":16,
+			"Games":36,
+			"Win Rate":0.44
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Veigar",
+			"Wins":2,
+			"Games":4,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Morgana",
+			"Wins":25,
+			"Games":54,
+			"Win Rate":0.46
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Braum",
+			"Wins":60,
+			"Games":143,
+			"Win Rate":0.42
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Braum",
+			"Wins":39,
+			"Games":80,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Nami",
+			"Wins":3,
+			"Games":8,
+			"Win Rate":0.38
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Veigar",
+			"Wins":1,
+			"Games":4,
+			"Win Rate":0.25
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Annie",
+			"Wins":5,
+			"Games":8,
+			"Win Rate":0.62
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Leona",
+			"Wins":14,
+			"Games":32,
+			"Win Rate":0.44
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Thresh",
+			"Wins":39,
+			"Games":73,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Braum",
+			"Wins":10,
+			"Games":20,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Leona",
+			"Wins":6,
+			"Games":11,
+			"Win Rate":0.55
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Nautilus",
+			"Wins":17,
+			"Games":38,
+			"Win Rate":0.45
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Lulu",
+			"Wins":13,
+			"Games":49,
+			"Win Rate":0.27
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Janna",
+			"Wins":15,
+			"Games":26,
+			"Win Rate":0.58
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Alistar",
+			"Wins":25,
+			"Games":54,
+			"Win Rate":0.46
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Janna",
+			"Wins":21,
+			"Games":39,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Lulu",
+			"Wins":15,
+			"Games":31,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Nautilus",
+			"Wins":3,
+			"Games":4,
+			"Win Rate":0.75
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Nautilus",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Annie",
+			"Wins":8,
+			"Games":15,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Janna",
+			"Wins":11,
+			"Games":20,
+			"Win Rate":0.55
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Alistar",
+			"Wins":122,
+			"Games":226,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Morgana",
+			"Wins":0,
+			"Games":7,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Alistar",
+			"Wins":24,
+			"Games":50,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Nautilus",
+			"Wins":55,
+			"Games":107,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Thresh",
+			"Wins":10,
+			"Games":14,
+			"Win Rate":0.71
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Alistar",
+			"Wins":50,
+			"Games":95,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Nautilus",
+			"Wins":4,
+			"Games":10,
+			"Win Rate":0.4
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Nautilus",
+			"Wins":4,
+			"Games":9,
+			"Win Rate":0.44
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Nautilus",
+			"Wins":5,
+			"Games":21,
+			"Win Rate":0.24
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Thresh",
+			"Wins":69,
+			"Games":141,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Thresh",
+			"Wins":102,
+			"Games":180,
+			"Win Rate":0.57
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Alistar",
+			"Wins":12,
+			"Games":25,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Nautilus",
+			"Wins":25,
+			"Games":42,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Nautilus",
+			"Wins":7,
+			"Games":12,
+			"Win Rate":0.58
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Bard",
+			"Wins":52,
+			"Games":104,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Bard",
+			"Wins":20,
+			"Games":42,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Thresh",
+			"Wins":38,
+			"Games":68,
+			"Win Rate":0.56
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Alistar",
+			"Wins":74,
+			"Games":142,
+			"Win Rate":0.52
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Bard",
+			"Wins":34,
+			"Games":63,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Karma",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Malphite",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Nautilus",
+			"Wins":5,
+			"Games":10,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Thresh",
+			"Wins":11,
+			"Games":23,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Annie",
+			"Wins":7,
+			"Games":12,
+			"Win Rate":0.58
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Thresh",
+			"Wins":68,
+			"Games":143,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Annie",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Alistar",
+			"Wins":68,
+			"Games":135,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Alistar",
+			"Wins":4,
+			"Games":7,
+			"Win Rate":0.57
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Shen",
+			"Wins":4,
+			"Games":13,
+			"Win Rate":0.31
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Alistar",
+			"Wins":25,
+			"Games":45,
+			"Win Rate":0.56
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Braum",
+			"Wins":16,
+			"Games":28,
+			"Win Rate":0.57
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Shen",
+			"Wins":4,
+			"Games":5,
+			"Win Rate":0.8
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Karma",
+			"Wins":2,
+			"Games":6,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Braum",
+			"Wins":90,
+			"Games":192,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Bard",
+			"Wins":3,
+			"Games":5,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Braum",
+			"Wins":52,
+			"Games":105,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Karma",
+			"Wins":12,
+			"Games":26,
+			"Win Rate":0.46
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Thresh",
+			"Wins":36,
+			"Games":70,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Braum",
+			"Wins":98,
+			"Games":182,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Braum",
+			"Wins":118,
+			"Games":235,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Braum",
+			"Wins":154,
+			"Games":335,
+			"Win Rate":0.46
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Alistar",
+			"Wins":118,
+			"Games":219,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Nautilus",
+			"Wins":9,
+			"Games":20,
+			"Win Rate":0.45
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Thresh",
+			"Wins":26,
+			"Games":57,
+			"Win Rate":0.46
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Nami",
+			"Wins":3,
+			"Games":5,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Kennen",
+			"Wins":13,
+			"Games":32,
+			"Win Rate":0.41
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Kennen",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Leona",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Braum",
+			"Wins":23,
+			"Games":45,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Leona",
+			"Wins":4,
+			"Games":7,
+			"Win Rate":0.57
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Soraka",
+			"Wins":6,
+			"Games":15,
+			"Win Rate":0.4
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Braum",
+			"Wins":85,
+			"Games":150,
+			"Win Rate":0.57
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Janna",
+			"Wins":7,
+			"Games":10,
+			"Win Rate":0.7
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Soraka",
+			"Wins":15,
+			"Games":28,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Karma",
+			"Wins":115,
+			"Games":213,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Morgana",
+			"Wins":3,
+			"Games":11,
+			"Win Rate":0.27
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Braum",
+			"Wins":5,
+			"Games":6,
+			"Win Rate":0.83
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Braum",
+			"Wins":1,
+			"Games":4,
+			"Win Rate":0.25
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Alistar",
+			"Wins":77,
+			"Games":159,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Kindred",
+			"Support":"Alistar",
+			"Wins":4,
+			"Games":4,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Trundle",
+			"Wins":18,
+			"Games":38,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Trundle",
+			"Wins":41,
+			"Games":66,
+			"Win Rate":0.62
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Bard",
+			"Wins":35,
+			"Games":88,
+			"Win Rate":0.4
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Trundle",
+			"Wins":3,
+			"Games":9,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Alistar",
+			"Wins":32,
+			"Games":56,
+			"Win Rate":0.57
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Braum",
+			"Wins":79,
+			"Games":180,
+			"Win Rate":0.44
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Bard",
+			"Wins":52,
+			"Games":111,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Trundle",
+			"Wins":55,
+			"Games":107,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Bard",
+			"Wins":33,
+			"Games":76,
+			"Win Rate":0.43
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Soraka",
+			"Wins":15,
+			"Games":30,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Poppy",
+			"Wins":2,
+			"Games":4,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Soraka",
+			"Wins":3,
+			"Games":7,
+			"Win Rate":0.43
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Bard",
+			"Wins":12,
+			"Games":30,
+			"Win Rate":0.4
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Morgana",
+			"Wins":13,
+			"Games":28,
+			"Win Rate":0.46
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Lulu",
+			"Wins":5,
+			"Games":14,
+			"Win Rate":0.36
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Poppy",
+			"Wins":5,
+			"Games":10,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Braum",
+			"Wins":99,
+			"Games":202,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Morgana",
+			"Wins":12,
+			"Games":22,
+			"Win Rate":0.55
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Alistar",
+			"Wins":50,
+			"Games":77,
+			"Win Rate":0.65
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Soraka",
+			"Wins":8,
+			"Games":26,
+			"Win Rate":0.31
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Braum",
+			"Wins":72,
+			"Games":140,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Morgana",
+			"Wins":14,
+			"Games":25,
+			"Win Rate":0.56
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Trundle",
+			"Wins":26,
+			"Games":55,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Shen",
+			"Wins":3,
+			"Games":6,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Karma",
+			"Wins":1,
+			"Games":4,
+			"Win Rate":0.25
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Karma",
+			"Wins":99,
+			"Games":201,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Poppy",
+			"Wins":9,
+			"Games":18,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Karma",
+			"Wins":63,
+			"Games":114,
+			"Win Rate":0.55
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Nami",
+			"Wins":49,
+			"Games":99,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Karma",
+			"Wins":128,
+			"Games":231,
+			"Win Rate":0.55
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Zyra",
+			"Wins":34,
+			"Games":70,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Karma",
+			"Wins":106,
+			"Games":181,
+			"Win Rate":0.59
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Zyra",
+			"Wins":109,
+			"Games":207,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Karma",
+			"Wins":81,
+			"Games":152,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Nami",
+			"Wins":39,
+			"Games":73,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Zyra",
+			"Wins":13,
+			"Games":24,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Zyra",
+			"Wins":33,
+			"Games":59,
+			"Win Rate":0.56
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Zyra",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Zyra",
+			"Wins":7,
+			"Games":15,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Zyra",
+			"Wins":4,
+			"Games":5,
+			"Win Rate":0.8
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Karma",
+			"Wins":3,
+			"Games":5,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Nami",
+			"Wins":28,
+			"Games":53,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Bard",
+			"Wins":47,
+			"Games":73,
+			"Win Rate":0.64
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Soraka",
+			"Wins":3,
+			"Games":5,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Zyra",
+			"Wins":63,
+			"Games":145,
+			"Win Rate":0.43
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Soraka",
+			"Wins":4,
+			"Games":9,
+			"Win Rate":0.44
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Nami",
+			"Wins":44,
+			"Games":83,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Nami",
+			"Wins":37,
+			"Games":69,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Trundle",
+			"Wins":21,
+			"Games":45,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Trundle",
+			"Wins":16,
+			"Games":38,
+			"Win Rate":0.42
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Thresh",
+			"Wins":70,
+			"Games":136,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Soraka",
+			"Wins":7,
+			"Games":12,
+			"Win Rate":0.58
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Karma",
+			"Wins":12,
+			"Games":17,
+			"Win Rate":0.71
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Taric",
+			"Wins":20,
+			"Games":37,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Taric",
+			"Wins":23,
+			"Games":49,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Sona",
+			"Wins":5,
+			"Games":6,
+			"Win Rate":0.83
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Sona",
+			"Wins":5,
+			"Games":8,
+			"Win Rate":0.62
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Sona",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"TahmKench",
+			"Wins":16,
+			"Games":42,
+			"Win Rate":0.38
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Sona",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"TahmKench",
+			"Wins":58,
+			"Games":139,
+			"Win Rate":0.42
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Trundle",
+			"Wins":6,
+			"Games":16,
+			"Win Rate":0.38
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Morgana",
+			"Wins":11,
+			"Games":28,
+			"Win Rate":0.39
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Taric",
+			"Wins":16,
+			"Games":35,
+			"Win Rate":0.46
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Sona",
+			"Wins":3,
+			"Games":6,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Taric",
+			"Wins":3,
+			"Games":21,
+			"Win Rate":0.14
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"TahmKench",
+			"Wins":62,
+			"Games":115,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Taric",
+			"Wins":8,
+			"Games":16,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Janna",
+			"Wins":8,
+			"Games":15,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Taric",
+			"Wins":14,
+			"Games":28,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Zyra",
+			"Wins":1,
+			"Games":7,
+			"Win Rate":0.14
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"MissFortune",
+			"Wins":29,
+			"Games":54,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Taric",
+			"Wins":8,
+			"Games":27,
+			"Win Rate":0.3
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Malzahar",
+			"Wins":43,
+			"Games":88,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Nami",
+			"Wins":28,
+			"Games":57,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Karma",
+			"Wins":66,
+			"Games":162,
+			"Win Rate":0.41
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Malzahar",
+			"Wins":46,
+			"Games":91,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Lulu",
+			"Wins":58,
+			"Games":113,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Morgana",
+			"Wins":11,
+			"Games":16,
+			"Win Rate":0.69
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Malzahar",
+			"Wins":10,
+			"Games":24,
+			"Win Rate":0.42
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Zyra",
+			"Wins":68,
+			"Games":149,
+			"Win Rate":0.46
+		},
+		{
+			"ADC":"Varus",
+			"Support":"TahmKench",
+			"Wins":56,
+			"Games":102,
+			"Win Rate":0.55
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Malzahar",
+			"Wins":25,
+			"Games":46,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Zilean",
+			"Wins":2,
+			"Games":10,
+			"Win Rate":0.2
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Malzahar",
+			"Wins":51,
+			"Games":101,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Thresh",
+			"Wins":75,
+			"Games":150,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Lulu",
+			"Wins":60,
+			"Games":119,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Varus",
+			"Support":"MissFortune",
+			"Wins":25,
+			"Games":40,
+			"Win Rate":0.62
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Camille",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Bard",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Morgana",
+			"Wins":4,
+			"Games":11,
+			"Win Rate":0.36
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Zyra",
+			"Wins":4,
+			"Games":9,
+			"Win Rate":0.44
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Lulu",
+			"Wins":26,
+			"Games":51,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"MissFortune",
+			"Wins":24,
+			"Games":43,
+			"Win Rate":0.56
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Malzahar",
+			"Wins":2,
+			"Games":4,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Thresh",
+			"Wins":2,
+			"Games":6,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Thresh",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Malzahar",
+			"Wins":6,
+			"Games":10,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Lulu",
+			"Wins":51,
+			"Games":106,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Mordekaiser",
+			"Support":"Nautilus",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Mordekaiser",
+			"Support":"Blitzcrank",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"TahmKench",
+			"Wins":31,
+			"Games":68,
+			"Win Rate":0.46
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Camille",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Camille",
+			"Wins":0,
+			"Games":3,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Soraka",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Lulu",
+			"Wins":36,
+			"Games":85,
+			"Win Rate":0.42
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Lulu",
+			"Wins":4,
+			"Games":5,
+			"Win Rate":0.8
+		},
+		{
+			"ADC":"Mordekaiser",
+			"Support":"Maokai",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Thresh",
+			"Wins":51,
+			"Games":104,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Braum",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Karma",
+			"Wins":9,
+			"Games":13,
+			"Win Rate":0.69
+		},
+		{
+			"ADC":"Jayce",
+			"Support":"Karma",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Malzahar",
+			"Wins":2,
+			"Games":6,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Lulu",
+			"Wins":31,
+			"Games":63,
+			"Win Rate":0.49
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Karma",
+			"Wins":2,
+			"Games":4,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Lulu",
+			"Wins":2,
+			"Games":6,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Malzahar",
+			"Wins":3,
+			"Games":11,
+			"Win Rate":0.27
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"TahmKench",
+			"Wins":13,
+			"Games":22,
+			"Win Rate":0.59
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Brand",
+			"Wins":6,
+			"Games":10,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Zyra",
+			"Wins":6,
+			"Games":12,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Nami",
+			"Wins":6,
+			"Games":9,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Karma",
+			"Wins":5,
+			"Games":7,
+			"Win Rate":0.71
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Gragas",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Rakan",
+			"Wins":102,
+			"Games":192,
+			"Win Rate":0.53
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Bard",
+			"Wins":16,
+			"Games":27,
+			"Win Rate":0.59
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Rakan",
+			"Wins":4,
+			"Games":9,
+			"Win Rate":0.44
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Lulu",
+			"Wins":14,
+			"Games":24,
+			"Win Rate":0.58
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Sejuani",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Karma",
+			"Wins":5,
+			"Games":10,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Thresh",
+			"Wins":3,
+			"Games":7,
+			"Win Rate":0.43
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Blitzcrank",
+			"Wins":15,
+			"Games":24,
+			"Win Rate":0.62
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Galio",
+			"Wins":4,
+			"Games":5,
+			"Win Rate":0.8
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Sejuani",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Bard",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Blitzcrank",
+			"Wins":15,
+			"Games":32,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Karma",
+			"Wins":4,
+			"Games":10,
+			"Win Rate":0.4
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Blitzcrank",
+			"Wins":11,
+			"Games":26,
+			"Win Rate":0.42
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Thresh",
+			"Wins":39,
+			"Games":81,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Rakan",
+			"Wins":5,
+			"Games":10,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Rakan",
+			"Wins":9,
+			"Games":19,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Rakan",
+			"Wins":14,
+			"Games":28,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Bard",
+			"Wins":4,
+			"Games":12,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Zyra",
+			"Wins":5,
+			"Games":10,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Rakan",
+			"Wins":30,
+			"Games":63,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"TahmKench",
+			"Wins":11,
+			"Games":17,
+			"Win Rate":0.65
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Rakan",
+			"Wins":14,
+			"Games":34,
+			"Win Rate":0.41
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Blitzcrank",
+			"Wins":2,
+			"Games":4,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Braum",
+			"Wins":4,
+			"Games":8,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Rakan",
+			"Wins":3,
+			"Games":10,
+			"Win Rate":0.3
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Braum",
+			"Wins":26,
+			"Games":48,
+			"Win Rate":0.54
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"TahmKench",
+			"Wins":2,
+			"Games":6,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Morgana",
+			"Wins":5,
+			"Games":8,
+			"Win Rate":0.62
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Janna",
+			"Wins":12,
+			"Games":25,
+			"Win Rate":0.48
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"TahmKench",
+			"Wins":11,
+			"Games":33,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"TahmKench",
+			"Wins":19,
+			"Games":40,
+			"Win Rate":0.47
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Sona",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Alistar",
+			"Wins":19,
+			"Games":38,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Galio",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Blitzcrank",
+			"Wins":20,
+			"Games":25,
+			"Win Rate":0.8
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Lulu",
+			"Wins":23,
+			"Games":44,
+			"Win Rate":0.52
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Blitzcrank",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Soraka",
+			"Wins":2,
+			"Games":5,
+			"Win Rate":0.4
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Blitzcrank",
+			"Wins":7,
+			"Games":11,
+			"Win Rate":0.64
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Bard",
+			"Wins":6,
+			"Games":16,
+			"Win Rate":0.38
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Taric",
+			"Wins":8,
+			"Games":10,
+			"Win Rate":0.8
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Alistar",
+			"Wins":6,
+			"Games":12,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Lulu",
+			"Wins":2,
+			"Games":7,
+			"Win Rate":0.29
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Blitzcrank",
+			"Wins":9,
+			"Games":10,
+			"Win Rate":0.9
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Nautilus",
+			"Wins":7,
+			"Games":12,
+			"Win Rate":0.58
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"TahmKench",
+			"Wins":7,
+			"Games":12,
+			"Win Rate":0.58
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Rakan",
+			"Wins":7,
+			"Games":7,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Rakan",
+			"Wins":4,
+			"Games":6,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Annie",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Lulu",
+			"Wins":6,
+			"Games":10,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Blitzcrank",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Leona",
+			"Wins":8,
+			"Games":13,
+			"Win Rate":0.62
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Zilean",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Nami",
+			"Wins":21,
+			"Games":36,
+			"Win Rate":0.58
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Leona",
+			"Wins":4,
+			"Games":5,
+			"Win Rate":0.8
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Alistar",
+			"Wins":8,
+			"Games":18,
+			"Win Rate":0.44
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Annie",
+			"Wins":1,
+			"Games":4,
+			"Win Rate":0.25
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Morgana",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Lulu",
+			"Support":"Nautilus",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Taric",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Alistar",
+			"Wins":3,
+			"Games":6,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Janna",
+			"Wins":3,
+			"Games":4,
+			"Win Rate":0.75
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Shen",
+			"Wins":3,
+			"Games":6,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Nautilus",
+			"Wins":4,
+			"Games":11,
+			"Win Rate":0.36
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Shen",
+			"Wins":3,
+			"Games":6,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Nautilus",
+			"Wins":4,
+			"Games":5,
+			"Win Rate":0.8
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Shen",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Gragas",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Lulu",
+			"Wins":5,
+			"Games":9,
+			"Win Rate":0.56
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Trundle",
+			"Wins":11,
+			"Games":17,
+			"Win Rate":0.65
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Trundle",
+			"Wins":18,
+			"Games":35,
+			"Win Rate":0.51
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Annie",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Shen",
+			"Wins":6,
+			"Games":10,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Corki",
+			"Support":"TahmKench",
+			"Wins":3,
+			"Games":7,
+			"Win Rate":0.43
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Annie",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Poppy",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Poppy",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Zilean",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"TahmKench",
+			"Wins":13,
+			"Games":22,
+			"Win Rate":0.59
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Alistar",
+			"Wins":5,
+			"Games":13,
+			"Win Rate":0.38
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Poppy",
+			"Wins":0,
+			"Games":3,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Soraka",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Taric",
+			"Wins":3,
+			"Games":3,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Trundle",
+			"Wins":3,
+			"Games":15,
+			"Win Rate":0.2
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Karma",
+			"Wins":4,
+			"Games":5,
+			"Win Rate":0.8
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Nami",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Bard",
+			"Wins":1,
+			"Games":4,
+			"Win Rate":0.25
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"TahmKench",
+			"Wins":31,
+			"Games":54,
+			"Win Rate":0.57
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Karma",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Sion",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Taric",
+			"Wins":8,
+			"Games":13,
+			"Win Rate":0.62
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Taric",
+			"Wins":3,
+			"Games":15,
+			"Win Rate":0.2
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Nautilus",
+			"Wins":7,
+			"Games":23,
+			"Win Rate":0.3
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Nami",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Nautilus",
+			"Wins":6,
+			"Games":14,
+			"Win Rate":0.43
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Malzahar",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Zilean",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"MissFortune",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"MissFortune",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Camille",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Zyra",
+			"Wins":1,
+			"Games":12,
+			"Win Rate":0.08
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Brand",
+			"Wins":3,
+			"Games":5,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Zilean",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Malzahar",
+			"Wins":3,
+			"Games":5,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Blitzcrank",
+			"Wins":7,
+			"Games":10,
+			"Win Rate":0.7
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Zilean",
+			"Wins":2,
+			"Games":7,
+			"Win Rate":0.29
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Zilean",
+			"Wins":3,
+			"Games":4,
+			"Win Rate":0.75
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Fiddlesticks",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Gragas",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Fiddlesticks",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Camille",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Camille",
+			"Wins":0,
+			"Games":3,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Annie",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Camille",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Fiddlesticks",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Lulu",
+			"Wins":5,
+			"Games":16,
+			"Win Rate":0.31
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Galio",
+			"Wins":3,
+			"Games":4,
+			"Win Rate":0.75
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Blitzcrank",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Lulu",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"TahmKench",
+			"Wins":10,
+			"Games":26,
+			"Win Rate":0.38
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Camille",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Sejuani",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Trundle",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Trundle",
+			"Wins":6,
+			"Games":8,
+			"Win Rate":0.75
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Kennen",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Heimerdinger",
+			"Support":"LeeSin",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Kled",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"LeeSin",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Karthus",
+			"Support":"Vayne",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Blitzcrank",
+			"Support":"Garen",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Gragas",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Irelia",
+			"Support":"Gragas",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Thresh",
+			"Support":"TwistedFate",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Syndra",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Morgana",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Sejuani",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Veigar",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Janna",
+			"Wins":2,
+			"Games":8,
+			"Win Rate":0.25
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Leona",
+			"Wins":1,
+			"Games":5,
+			"Win Rate":0.2
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Maokai",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Irelia",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Kayle",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Lulu",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Kennen",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Blitzcrank",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Kennen",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Braum",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Nunu",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Veigar",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Kennen",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Kennen",
+			"Wins":1,
+			"Games":5,
+			"Win Rate":0.2
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Kennen",
+			"Wins":7,
+			"Games":12,
+			"Win Rate":0.58
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Kennen",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Kennen",
+			"Wins":0,
+			"Games":3,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Bard",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"TahmKench",
+			"Wins":2,
+			"Games":6,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Lissandra",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Quinn",
+			"Support":"Braum",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Nami",
+			"Wins":7,
+			"Games":10,
+			"Win Rate":0.7
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"MissFortune",
+			"Wins":3,
+			"Games":3,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"MissFortune",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Syndra",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Brand",
+			"Wins":2,
+			"Games":7,
+			"Win Rate":0.29
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Leona",
+			"Wins":6,
+			"Games":10,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Velkoz",
+			"Wins":0,
+			"Games":3,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"MissFortune",
+			"Wins":4,
+			"Games":6,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Zilean",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Brand",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Kayle",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Zilean",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Elise",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Sion",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Zilean",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Lux",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Velkoz",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Malzahar",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Brand",
+			"Wins":5,
+			"Games":8,
+			"Win Rate":0.62
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Galio",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Nunu",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Brand",
+			"Wins":2,
+			"Games":5,
+			"Win Rate":0.4
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Taric",
+			"Wins":9,
+			"Games":15,
+			"Win Rate":0.6
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Sona",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Galio",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Zyra",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Maokai",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Sona",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Veigar",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Blitzcrank",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Janna",
+			"Support":"Kalista",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Bard",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Leona",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Leona",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Annie",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Trundle",
+			"Wins":2,
+			"Games":11,
+			"Win Rate":0.18
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Gragas",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Trundle",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Gragas",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"Kennen",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Janna",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Nautilus",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Sona",
+			"Wins":0,
+			"Games":5,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Lulu",
+			"Wins":1,
+			"Games":6,
+			"Win Rate":0.17
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Leona",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Galio",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Galio",
+			"Wins":3,
+			"Games":4,
+			"Win Rate":0.75
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Brand",
+			"Wins":1,
+			"Games":4,
+			"Win Rate":0.25
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Galio",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Gragas",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Rakan",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Lux",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Lissandra",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Rakan",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Shen",
+			"Wins":4,
+			"Games":7,
+			"Win Rate":0.57
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Gragas",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Shen",
+			"Wins":0,
+			"Games":4,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Sion",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Shen",
+			"Wins":3,
+			"Games":3,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Lux",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Leona",
+			"Wins":4,
+			"Games":4,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Graves",
+			"Support":"Soraka",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Blitzcrank",
+			"Wins":4,
+			"Games":6,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Velkoz",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Shen",
+			"Wins":4,
+			"Games":10,
+			"Win Rate":0.4
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Syndra",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Poppy",
+			"Wins":2,
+			"Games":7,
+			"Win Rate":0.29
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Elise",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Taliyah",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Veigar",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Veigar",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Veigar",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Brand",
+			"Wins":1,
+			"Games":5,
+			"Win Rate":0.2
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Brand",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Veigar",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Cassiopeia",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Urgot",
+			"Support":"TwistedFate",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Lissandra",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Nunu",
+			"Support":"Ziggs",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Ziggs",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Brand",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Leona",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Taric",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Camille",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Ashe",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Teemo",
+			"Support":"Ivern",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Alistar",
+			"Support":"Kalista",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Kled",
+			"Support":"Elise",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Viktor",
+			"Support":"Jinx",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Ahri",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Nautilus",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Lux",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Camille",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Taric",
+			"Wins":1,
+			"Games":4,
+			"Win Rate":0.25
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Brand",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Zilean",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Kennen",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Kayle",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Poppy",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Malphite",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Udyr",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Garen",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Taliyah",
+			"Support":"Karma",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Viktor",
+			"Support":"Leona",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Karma",
+			"Support":"Ashe",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Velkoz",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Leona",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Quinn",
+			"Support":"Bard",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Lucian",
+			"Support":"Kayle",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Zac",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Galio",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Nami",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Camille",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Gragas",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Taric",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Leona",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Ziggs",
+			"Support":"Janna",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Velkoz",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Sona",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Ashe",
+			"Support":"Maokai",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Ashe",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"Trundle",
+			"Wins":1,
+			"Games":4,
+			"Win Rate":0.25
+		},
+		{
+			"ADC":"Jhin",
+			"Support":"Rengar",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Evelynn",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"Brand",
+			"Wins":2,
+			"Games":4,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Gragas",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Rakan",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Soraka",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Blitzcrank",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Zilean",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Kayle",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Zilean",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Mordekaiser",
+			"Support":"Leona",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Shen",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Kennen",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Mordekaiser",
+			"Support":"Alistar",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Mordekaiser",
+			"Support":"Thresh",
+			"Wins":0,
+			"Games":2,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Vayne",
+			"Support":"TahmKench",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Alistar",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Jayce",
+			"Support":"Thresh",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Shen",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Nautilus",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Sivir",
+			"Support":"LeeSin",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Bard",
+			"Wins":2,
+			"Games":2,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Twitch",
+			"Support":"Sona",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Zilean",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Sona",
+			"Wins":1,
+			"Games":4,
+			"Win Rate":0.25
+		},
+		{
+			"ADC":"MissFortune",
+			"Support":"Soraka",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Draven",
+			"Support":"Brand",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Camille",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Bard",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Tristana",
+			"Support":"Ornn",
+			"Wins":2,
+			"Games":3,
+			"Win Rate":0.67
+		},
+		{
+			"ADC":"Varus",
+			"Support":"Ornn",
+			"Wins":1,
+			"Games":2,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"KogMaw",
+			"Support":"Ornn",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Soraka",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Janna",
+			"Support":"DrMundo",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		},
+		{
+			"ADC":"Corki",
+			"Support":"Sona",
+			"Wins":3,
+			"Games":6,
+			"Win Rate":0.5
+		},
+		{
+			"ADC":"Jinx",
+			"Support":"Zyra",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kennen",
+			"Support":"Nami",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Ezreal",
+			"Support":"Ornn",
+			"Wins":1,
+			"Games":3,
+			"Win Rate":0.33
+		},
+		{
+			"ADC":"Xayah",
+			"Support":"Ornn",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Caitlyn",
+			"Support":"Ornn",
+			"Wins":1,
+			"Games":1,
+			"Win Rate":1.0
+		},
+		{
+			"ADC":"Kalista",
+			"Support":"Ornn",
+			"Wins":0,
+			"Games":1,
+			"Win Rate":0.0
+		}
+	]
+}
