@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 300 300">
+	<title>Map of multiplayer online battle arena</title>
+	<rect id="background" x="-10" y="-10" width="310" height="310" fill="#fea"/>
+	<path id="jungle" fill="#8b4" d="M 255,25 H 25 V 255 M 275,45 V 275 H 45"/>
+	<circle cy="300" r="60" fill="#aaf"/>
+	<circle cy="300" r="25" fill="#66e"/>
+	<circle cx="300" r="60" fill="#faa"/>
+	<circle cx="300" r="25" fill="#e66"/>
+	
+	<use xlink:href="#team_1_base" transform="translate(300,300)rotate(180)"/>
+	
+	<g fill="#66e">
+		<g id="team_1_towers">
+			<g id="team_1_top_towers">
+				<circle r="7" cx="12.5" cy="40"/>
+				<circle r="7" cx="12.5" cy="150"/>
+				
+			</g>
+			<use xlink:href="#team_1_top_towers" transform="translate(300,300)scale(-1,1)rotate(-90)"/>
+			<circle r="7" cx="140" cy="160"/>
+			<circle r="7" cx="90" cy="210"/>
+			
+		</g>
+	</g>
+	<use xlink:href="#team_1_towers" fill="#e66" transform="translate(300,300)rotate(180)"/>
+	<path id="divide" style="stroke:#000;stroke-width:3;stroke-dasharray:5" d="M 0,0 L 300,300"/>
+	<g style="font-size:15px;fill:#000;text-anchor:middle;font-family:Liberation Sans,sans-serif">
+		<g fill="#339">
+		
+			<text transform="translate(8,94)rotate(90)">Top lane</text>
+			<text x="207" y="293">Bottom lane</text>
+			<text transform="translate(120,188)rotate(-45)">Middle</text>
+			<text x="80" y="140">Team 1<tspan x="80" dy="15">top jungle</tspan></text>
+			<text x="155" y="230">Team 1<tspan x="155" dy="15">bottom jungle</tspan></text>
+		</g>
+		<g fill="#933">
+			
+			<text x="93" y="17">Top lane</text>
+			<text transform="translate(283,206)rotate(90)">Bottom lane</text>
+			<text transform="translate(184,124)rotate(-45)">lane</text>
+			<text x="145" y="70">Team 2<tspan x="145" dy="15">top jungle</tspan></text>
+			<text x="220" y="150">Team 2<tspan x="220" dy="15">bottom jungle</tspan></text>
+		</g>
+	</g>
+</svg>
