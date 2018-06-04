@@ -1,46 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 300 300">
-	<title>Map of multiplayer online battle arena</title>
-	<rect id="background" x="-10" y="-10" width="310" height="310" fill="#fea"/>
-	<path id="jungle" fill="#8b4" d="M 255,25 H 25 V 255 M 275,45 V 275 H 45"/>
-	<circle cy="300" r="60" fill="#aaf"/>
-	<circle cy="300" r="25" fill="#66e"/>
-	<circle cx="300" r="60" fill="#faa"/>
-	<circle cx="300" r="25" fill="#e66"/>
-	
-	<use xlink:href="#team_1_base" transform="translate(300,300)rotate(180)"/>
-	
-	<g fill="#66e">
-		<g id="team_1_towers">
-			<g id="team_1_top_towers">
-				<circle r="7" cx="12.5" cy="40"/>
-				<circle r="7" cx="12.5" cy="150"/>
-				
-			</g>
-			<use xlink:href="#team_1_top_towers" transform="translate(300,300)scale(-1,1)rotate(-90)"/>
-			<circle r="7" cx="140" cy="160"/>
-			<circle r="7" cx="90" cy="210"/>
-			
-		</g>
-	</g>
-	<use xlink:href="#team_1_towers" fill="#e66" transform="translate(300,300)rotate(180)"/>
-	<path id="divide" style="stroke:#000;stroke-width:3;stroke-dasharray:5" d="M 0,0 L 300,300"/>
-	<g style="font-size:15px;fill:#000;text-anchor:middle;font-family:Liberation Sans,sans-serif">
-		<g fill="#339">
-		
-			<text transform="translate(8,94)rotate(90)">Top lane</text>
-			<text x="207" y="293">Bottom lane</text>
-			<text transform="translate(120,188)rotate(-45)">Middle</text>
-			<text x="80" y="140">Team 1<tspan x="80" dy="15">top jungle</tspan></text>
-			<text x="155" y="230">Team 1<tspan x="155" dy="15">bottom jungle</tspan></text>
-		</g>
-		<g fill="#933">
-			
-			<text x="93" y="17">Top lane</text>
-			<text transform="translate(283,206)rotate(90)">Bottom lane</text>
-			<text transform="translate(184,124)rotate(-45)">lane</text>
-			<text x="145" y="70">Team 2<tspan x="145" dy="15">top jungle</tspan></text>
-			<text x="220" y="150">Team 2<tspan x="220" dy="15">bottom jungle</tspan></text>
-		</g>
-	</g>
-</svg>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="100%" height="100%" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+
+    <g id="TopLane">
+        <rect x="-1" y="0" width="50" height="511" style="fill:#fea;"/>
+        <path d="M512,49l0,-50l-469,0l0,50l469,0Z" style="fill:#fea;"/>
+    </g>
+
+    <g id="BotLane">
+        <path d="M553,601l0,-50l-463,0l0,50l463,0Z" style="fill:#fea;"/>
+        <rect x="551" y="90" width="50" height="512" style="fill:#fea;"/></g>
+
+    <path id="MidLane" d="M549,86.758l-36.887,-36.758l-461.005,462.621l36.887,36.758l461.005,-462.621Z"
+          style="fill:#fea;"/>
+
+    <path id="jungle" d="M510,50l-460,0l0,460m500,-420l0,460l-460,0"
+          style="fill:#8b4;fill-rule:nonzero;stroke:#000;stroke-width:1px;"/>
+
+
+
+    <g id="Base2"><circle cx="0" cy="600" r="120" style="fill:#aaf;"/><circle cx="0" cy="600" r="50" style="fill:#66e;"/></g><g id="Base1"><circle cx="600" cy="0" r="120" style="fill:#faa;"/><circle cx="600" cy="0" r="50" style="fill:#e66;"/></g><path id="divide" d="M0,0l600,600" style="fill-rule:nonzero;stroke:#000;stroke-width:6px;stroke-dasharray:5,5;"/>
+    <g><g><g transform="matrix(-3.82857e-16,1,-1,-3.82857e-16,204,172)"><text x="-40.711px" y="188px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#339;">T<tspan x="-25.711px -9.027px " y="188px 188px ">op</tspan> lane</text></g><text x="333.954px" y="586px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#339;">Bottom lane</text><g transform="matrix(0.707107,-0.707107,0.707107,0.707107,-195.578,279.833)"><text x="195.813px" y="376px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#339;">Middle</text></g><g><text x="110.811px" y="280px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#339;">T<tspan x="125.811px 142.495px " y="280px 280px ">ea</tspan>m 1</text><text x="94.946px" y="310px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#339;">top jungle</text></g><g><text x="260.811px" y="460px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#339;">T<tspan x="275.811px 292.495px " y="460px 460px ">ea</tspan>m 1</text><text x="219.941px" y="490px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#339;">bottom jungle</text></g></g><g><text x="129.289px" y="34px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#933;">T<tspan x="144.289px 160.973px " y="34px 34px ">op</tspan> lane</text><g transform="matrix(-3.82857e-16,1,-1,-3.82857e-16,978,-154)"><text x="485.954px" y="412px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#933;">Bottom lane</text></g><g transform="matrix(0.707107,-0.707107,0.707107,0.707107,-67.5778,332.853)"><text x="339.641px" y="248px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#933;">lane</text></g><g><text x="240.811px" y="140px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#933;">T<tspan x="255.811px 272.495px " y="140px 140px ">ea</tspan>m 2</text><text x="224.946px" y="170px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#933;">top jungle</text></g><g><text x="390.811px" y="300px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#933;">T<tspan x="405.811px 422.495px " y="300px 300px ">ea</tspan>m 2</text><text x="349.941px" y="330px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:30px;fill:#933;">bottom jungle</text></g></g></g></svg>
