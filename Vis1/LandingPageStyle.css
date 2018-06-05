@@ -1,0 +1,25 @@
+path{
+    fill:#fea;
+    pointer-events:all;
+}
+
+svg path,
+svg circle {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+svg:hover path {
+    fill: red;
+}
+
+.mapContainer{
+    max-width: 66.7vh;
+    max-height: 100%;
+}
+
+.svg {
+    width: 400px;
+    height: 400px;
+}
