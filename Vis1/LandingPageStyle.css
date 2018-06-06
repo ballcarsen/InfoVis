@@ -1,25 +1,36 @@
-path{
-    fill:#fea;
-    pointer-events:all;
+circle:hover {
+    fill: red;
 }
 
-svg path,
-svg circle {
+.svg {
+    width: 200px;
+    height: 200px;
+}
+
+path#jungle{
+    fill:#8b4;
+    stroke:#000;
+    stroke-width:1px;
+    pointer-events:all;
+    
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
 }
-svg:hover path {
-    fill: red;
+
+path{
+    pointer-events:all;
+    fill: #fea;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
-.mapContainer{
-    max-width: 66.7vh;
-    max-height: 100%;
+path:hover{
+    fill: chocolate;
 }
-
-.svg {
-    width: 400px;
-    height: 400px;
-}
+path#jungle:hover{
+     fill:chocolate;
+ }
