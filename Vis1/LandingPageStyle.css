@@ -1,13 +1,8 @@
-circle:hover {
-    fill: red;
-}
-
 .svg {
     width: 200px;
     height: 200px;
 }
-
-path#jungle{
+path#Jungle{
     fill:#8b4;
     stroke:#000;
     stroke-width:1px;
@@ -18,19 +13,18 @@ path#jungle{
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
 }
-
 path{
-    pointer-events:all;
     fill: #fea;
+    pointer-events:all;
+    
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
 }
-
 path:hover{
     fill: chocolate;
 }
-path#jungle:hover{
-     fill:chocolate;
- }
+path#Jungle:hover{
+    fill: chocolate;
+}

@@ -34,8 +34,5 @@ $(function() {
     
 });
 
-function showCoords(event) {
-    var x = event.clientX;
-    var y = event.clientY;
-    document.getElementById("demo").innerHTML = "X coords: " + x + ", Y coords: " + y;
-}
+/*Function for the clicking*/
+
