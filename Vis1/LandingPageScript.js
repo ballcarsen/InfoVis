@@ -35,4 +35,26 @@ $(function() {
 });
 
 /*Function for the clicking*/
+$(document).on('click',"#TopLane", function() {
+    console.log("TOP");
+    
+    
+});
 
+$(document).on('click',"#MidLane", function() {
+    console.log("MID");
+    
+    
+});
+
+$(document).on('click',"#Jungle", function() {
+    $("#Jungle").toggleClass('selected');
+    console.log("Jungle");
+    
+});
+
+$(document).on('click',"#BotLane", function() {
+    console.log("BOT");
+    window.location.href = "GoldTest.html"
+    
+});

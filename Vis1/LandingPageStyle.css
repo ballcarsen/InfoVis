@@ -2,6 +2,7 @@
     width: 200px;
     height: 200px;
 }
+
 path#Jungle{
     fill:#8b4;
     stroke:#000;
@@ -13,6 +14,7 @@ path#Jungle{
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
 }
+
 path{
     fill: #fea;
     pointer-events:all;
@@ -26,5 +28,9 @@ path:hover{
     fill: chocolate;
 }
 path#Jungle:hover{
+    fill: chocolate;
+}
+
+.selected{
     fill: chocolate;
 }
