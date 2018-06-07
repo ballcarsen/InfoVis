@@ -31,6 +31,6 @@ path#Jungle:hover{
     fill: chocolate;
 }
 
-.selected{
-    fill: chocolate;
+path#Jungle{
+    fill: chocolate !important;
 }

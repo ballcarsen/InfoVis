@@ -34,6 +34,9 @@ $(function() {
     
 });
 
+/*Let's set classes for the paths*/
+
+
 /*Function for the clicking*/
 $(document).on('click',"#TopLane", function() {
     console.log("TOP");
@@ -48,8 +51,9 @@ $(document).on('click',"#MidLane", function() {
 });
 
 $(document).on('click',"#Jungle", function() {
-    $("#Jungle").toggleClass('selected');
+    /*$("#Jungle").toggleClass('.select.path#Jungle');*/
     console.log("Jungle");
+    
     
 });
 
