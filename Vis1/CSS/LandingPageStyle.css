@@ -30,7 +30,3 @@ path:hover{
 path#Jungle:hover{
     fill: chocolate;
 }
-
-path#Jungle{
-    fill: chocolate !important;
-}
