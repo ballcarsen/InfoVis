@@ -34,45 +34,9 @@ $(function() {
     
 });
 
-//Attempting a selector, unsuccesfully. Target is the svg element Path elements or the map itself
-//TODO make a functioning selector for path elements
-var map = d3.select("#Rift");
-var selectedPath = d3.select("#Jungle");
-
-//TODO fill path element on click with a color for testing
-selectedPath.on("click", function() {
-      d3.select(this)
-        .style("fill", "orange");
-});
-
-var circle = d3.selectAll("circle");
-
-circle.on('click', function() {
-    circle.style("fill", "blue");
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+width1 = 200;
+height1 = 200;
+Test = 10;
 
 //Debug functions from earlier
 /*Let's set classes for the paths*/
@@ -89,7 +53,28 @@ $(document).on('click',"#MidLane", function() {
 });
 $(document).on('click',"#Jungle", function() {
     /*$("#Jungle").toggleClass('.select.path#Jungle');*/
+    var Rift = d3.select("#container");
+    var Jungle = d3.select(this);
+    
     console.log("Jungle");
+    
+    if(Test === 10) {
+        Jungle.style("fill", "rgb(255,165,0)");
+        Test = 5;
+    }
+    else{
+        Jungle.style("fill", "rgb(136, 187, 68)");
+        Test = 10;
+    }
+    
+    var t = d3.transition()
+      .duration(750).ease(d3.easeLinear);
+    
+    Rift.transition(t)
+      .style("width", width1 + 'px')
+      .style("height", height1 + 'px');
+    //TODO if condition - orange on click, switch to original
+    
     
     
 });
