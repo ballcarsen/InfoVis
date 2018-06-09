@@ -1,5 +1,5 @@
 /*
-  * Replace all SVG images with inline SVG
+  * Replace all SVG images with inline SVG - no need to touch this
   */
 $(function() {
     
@@ -34,29 +34,65 @@ $(function() {
     
 });
 
+//Attempting a selector, unsuccesfully. Target is the svg element Path elements or the map itself
+//TODO make a functioning selector for path elements
+var map = d3.select("#Rift");
+var selectedPath = d3.select("#Jungle");
+
+//TODO fill path element on click with a color for testing
+selectedPath.on("click", function() {
+      d3.select(this)
+        .style("fill", "orange");
+});
+
+var circle = d3.selectAll("circle");
+
+circle.on('click', function() {
+    circle.style("fill", "blue");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Debug functions from earlier
 /*Let's set classes for the paths*/
-
-
 /*Function for the clicking*/
 $(document).on('click',"#TopLane", function() {
     console.log("TOP");
     
     
 });
-
 $(document).on('click',"#MidLane", function() {
     console.log("MID");
     
     
 });
-
 $(document).on('click',"#Jungle", function() {
     /*$("#Jungle").toggleClass('.select.path#Jungle');*/
     console.log("Jungle");
     
     
 });
-
 $(document).on('click',"#BotLane", function() {
     console.log("BOT");
     window.location.href = "GoldTest.html"
