@@ -136,5 +136,12 @@ with open('matchinfo.csv', "r") as data:
     for s in dict['Lanes']['Support']:
         dict['Lanes']['Support'][s]['Percentage'] = int(dict['Lanes']['Support'][s]['Wins'] / dict['Lanes']['Support'][s]['Games'] * 100)
 
-    with open('win-rates.json', 'w') as out:
-        json.dump(dict, out)
+    with open('jg-wins.json', 'w') as out:
+        out.write('[\n')
+        for i in dict['Lanes']['Jungle']:
+            if dict['Lanes']['Jungle'][i]['Percentage'] not in (100, 0) and dict['Lanes']['Jungle'][i]['Games'] > 10:
+                out.write('{\n')
+                out.write('\"name\": \"' + str(i) + '\",\n')
+                out.write('\"games\": ' + str(dict['Lanes']['Jungle'][i]['Games']) + ",\n")
+                out.write('\"rate\": ' + str(dict['Lanes']['Jungle'][i]['Percentage'])+ '\n},\n')
+        out.write('\t]')

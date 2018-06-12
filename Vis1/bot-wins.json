@@ -1,0 +1,107 @@
+[
+{
+"name": "Jinx",
+"games": 252,
+"rate": 53
+},
+{
+"name": "Sivir",
+"games": 1682,
+"rate": 52
+},
+{
+"name": "Caitlyn",
+"games": 1134,
+"rate": 48
+},
+{
+"name": "Corki",
+"games": 780,
+"rate": 51
+},
+{
+"name": "KogMaw",
+"games": 537,
+"rate": 48
+},
+{
+"name": "Tristana",
+"games": 852,
+"rate": 48
+},
+{
+"name": "Graves",
+"games": 205,
+"rate": 45
+},
+{
+"name": "Ezreal",
+"games": 1307,
+"rate": 49
+},
+{
+"name": "Kalista",
+"games": 1304,
+"rate": 46
+},
+{
+"name": "Vayne",
+"games": 211,
+"rate": 46
+},
+{
+"name": "Lucian",
+"games": 1595,
+"rate": 50
+},
+{
+"name": "Draven",
+"games": 62,
+"rate": 43
+},
+{
+"name": "Twitch",
+"games": 255,
+"rate": 55
+},
+{
+"name": "Varus",
+"games": 1298,
+"rate": 49
+},
+{
+"name": "Urgot",
+"games": 73,
+"rate": 56
+},
+{
+"name": "Ashe",
+"games": 1568,
+"rate": 51
+},
+{
+"name": "MissFortune",
+"games": 85,
+"rate": 42
+},
+{
+"name": "Jhin",
+"games": 1369,
+"rate": 50
+},
+{
+"name": "Ziggs",
+"games": 57,
+"rate": 38
+},
+{
+"name": "Kennen",
+"games": 54,
+"rate": 42
+},
+{
+"name": "Xayah",
+"games": 528,
+"rate": 51
+}
+]

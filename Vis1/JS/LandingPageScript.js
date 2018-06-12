@@ -75,7 +75,7 @@ $(document).on('click',"#Jungle", function() {
       .style("height", height1 + 'px');
     //TODO if condition - orange on click, switch to original
     
-    
+    //TODO method call to winrate
     
 });
 $(document).on('click',"#BotLane", function() {
