@@ -121,46 +121,18 @@ for index, row in matchInfo.iterrows():
     else:
         supChamps[red_sup].add_gold(get_array(red_sup_gold))
 
-with open('goldRates.csv', 'w') as out:
+with open('top-rates.csv', 'w') as out:
+    out.write("champ, time, value\n")
+    count = 0
     for key, value in topChamps.items():
-        value.average_gold_rate()
-        out.write("Top, " + value.name + ", " + str(value.averageLengthOfGame) + ", ")
-        for i in range(len(value.gold_array)):
-            if i < len(value.gold_array) - 1:
-                out.write(str(value.gold_array[i]) + ", ")
-            else:
-                out.write(str(value.gold_array[i]) + "\n")
-    for key, value in jgChamps.items():
-        value.average_gold_rate()
-        out.write("Jungle, " + value.name + ", " + str(value.averageLengthOfGame) + ", ")
-        for i in range(len(value.gold_array)):
-            if i < len(value.gold_array) - 1:
-                out.write(str(value.gold_array[i]) + ", ")
-            else:
-                out.write(str(value.gold_array[i]) + "\n")
-    for key, value in midChamps.items():
-        value.average_gold_rate()
-        out.write("Middle, " + value.name + ", " + str(value.averageLengthOfGame) + ", ")
-        for i in range(len(value.gold_array)):
-            if i < len(value.gold_array) - 1:
-                out.write(str(value.gold_array[i]) + ", ")
-            else:
-                out.write(str(value.gold_array[i]) + "\n")
-    for key, value in botChamps.items():
-        value.average_gold_rate()
-        out.write("ADC, " + value.name + ", " + str(value.averageLengthOfGame) + ", ")
-        for i in range(len(value.gold_array)):
-            if i < len(value.gold_array) - 1:
-                out.write(str(value.gold_array[i]) + ", ")
-            else:
-                out.write(str(value.gold_array[i]) + "\n")
-    for key, value in supChamps.items():
-        value.average_gold_rate()
-        out.write("Support, " + value.name + ", " + str(value.averageLengthOfGame) + ", ")
-        for i in range(len(value.gold_array)):
-            if i < len(value.gold_array) - 1:
-                out.write(str(value.gold_array[i]) + ", ")
-            else:
-                out.write(str(value.gold_array[i]) + "\n")
+        if count < 3:
+            value.average_gold_rate()
+
+            for i in range(len(value.gold_array)):
+                if i < 30:
+                    out.write(str(value.name) + ", " + str(i) + ", " + str(value.gold_array[i]) + "\n")
+                i+=1
+            count +=1
+
 
 

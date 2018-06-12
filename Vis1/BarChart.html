@@ -129,7 +129,7 @@ var svg = d3.select("body").append("svg")
     .call(zoom);
 svg.call(tip);
 // load the data
-d3.json( 'jg-wins.json', function(error, data) {
+d3.json( 'mid-wins.json', function(error, data) {
     data.sort(function(a, b) {
         return b.games - a.games;
     });
