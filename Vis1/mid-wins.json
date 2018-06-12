@@ -1,0 +1,247 @@
+[
+{
+"name": "Ahri",
+"games": 679,
+"rate": 50
+},
+{
+"name": "Fizz",
+"games": 125,
+"rate": 68
+},
+{
+"name": "Azir",
+"games": 893,
+"rate": 45
+},
+{
+"name": "Leblanc",
+"games": 846,
+"rate": 50
+},
+{
+"name": "Lulu",
+"games": 418,
+"rate": 46
+},
+{
+"name": "Lissandra",
+"games": 398,
+"rate": 50
+},
+{
+"name": "Xerath",
+"games": 136,
+"rate": 52
+},
+{
+"name": "Orianna",
+"games": 1314,
+"rate": 51
+},
+{
+"name": "Zed",
+"games": 350,
+"rate": 47
+},
+{
+"name": "Kassadin",
+"games": 389,
+"rate": 57
+},
+{
+"name": "Cassiopeia",
+"games": 898,
+"rate": 56
+},
+{
+"name": "Morgana",
+"games": 31,
+"rate": 64
+},
+{
+"name": "Corki",
+"games": 964,
+"rate": 53
+},
+{
+"name": "Ezreal",
+"games": 136,
+"rate": 49
+},
+{
+"name": "Yasuo",
+"games": 75,
+"rate": 58
+},
+{
+"name": "Syndra",
+"games": 987,
+"rate": 46
+},
+{
+"name": "Viktor",
+"games": 1225,
+"rate": 49
+},
+{
+"name": "Karthus",
+"games": 40,
+"rate": 42
+},
+{
+"name": "Chogath",
+"games": 45,
+"rate": 46
+},
+{
+"name": "Urgot",
+"games": 26,
+"rate": 50
+},
+{
+"name": "Vladimir",
+"games": 546,
+"rate": 43
+},
+{
+"name": "Katarina",
+"games": 58,
+"rate": 56
+},
+{
+"name": "Diana",
+"games": 77,
+"rate": 49
+},
+{
+"name": "JarvanIV",
+"games": 13,
+"rate": 46
+},
+{
+"name": "KogMaw",
+"games": 46,
+"rate": 69
+},
+{
+"name": "Ziggs",
+"games": 62,
+"rate": 43
+},
+{
+"name": "Varus",
+"games": 261,
+"rate": 55
+},
+{
+"name": "TwistedFate",
+"games": 304,
+"rate": 49
+},
+{
+"name": "Ekko",
+"games": 218,
+"rate": 55
+},
+{
+"name": "Jayce",
+"games": 318,
+"rate": 43
+},
+{
+"name": "Irelia",
+"games": 12,
+"rate": 58
+},
+{
+"name": "Velkoz",
+"games": 44,
+"rate": 59
+},
+{
+"name": "Anivia",
+"games": 131,
+"rate": 58
+},
+{
+"name": "Ryze",
+"games": 701,
+"rate": 47
+},
+{
+"name": "Lux",
+"games": 94,
+"rate": 54
+},
+{
+"name": "Zilean",
+"games": 210,
+"rate": 59
+},
+{
+"name": "Gangplank",
+"games": 85,
+"rate": 48
+},
+{
+"name": "Karma",
+"games": 272,
+"rate": 43
+},
+{
+"name": "Swain",
+"games": 68,
+"rate": 51
+},
+{
+"name": "AurelionSol",
+"games": 84,
+"rate": 57
+},
+{
+"name": "Taliyah",
+"games": 734,
+"rate": 47
+},
+{
+"name": "Malzahar",
+"games": 241,
+"rate": 45
+},
+{
+"name": "Talon",
+"games": 102,
+"rate": 49
+},
+{
+"name": "Lucian",
+"games": 148,
+"rate": 47
+},
+{
+"name": "Galio",
+"games": 258,
+"rate": 40
+},
+{
+"name": "Kayle",
+"games": 11,
+"rate": 81
+},
+{
+"name": "Quinn",
+"games": 27,
+"rate": 74
+},
+{
+"name": "Veigar",
+"games": 22,
+"rate": 59
+},
+{
+"name": "Zoe",
+"games": 24,
+"rate": 41
+}
+	]

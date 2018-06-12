@@ -168,7 +168,7 @@ with open('matchinfo.csv', "r") as data:
     nice_print(associations)
 
     # sample line {"name": "flare.sup.Thresh", "size": 10000, "imports": ["flare.adc.Jinx", "flare.adc.Lucian"]}
-    with open('flare.json', 'w') as output:
+    with open('flare_or.json', 'w') as output:
         output.write('[\n')
         for test in associations:
             output.write("{\"name\":" + '\"' + test[0] + '\",' + "\"size\":1000, \"imports\": [")
@@ -180,8 +180,9 @@ with open('matchinfo.csv', "r") as data:
                     output.write("\"" + indexes[indices[ind]] + "\", ")
                 else:
                     output.write("\"" + indexes[indices[ind]] + "\"")
-            output.write("]},\n")
+            output.write("], \"Data\" : 100},\n")
         output.write(']')
+    output.close()
 
 data.close()
 
