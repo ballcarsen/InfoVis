@@ -5,7 +5,7 @@ var cHeigth = 600;
 //TODO get maxwinrate from data or scale around 40-70%
 var maxWinrate = 100;
 
-//How wide is the scale and how wide is the container
+//How wide is the scale and how wide is the SvgRiftMap
 var widthScale = d3.scaleLinear()
     .domain([0, maxWinrate])
     .range([0, cWitdth]);
