@@ -34,37 +34,57 @@ $(function() {
     
 });
 
+//map size
 width1 = 200;
 height1 = 200;
+//temporary tf check
 Test = 10;
+Test2 = 10;
 
 //Debug functions from earlier
 /*Let's set classes for the paths*/
 /*Function for the clicking*/
 $(document).on('click',"#TopLane", function() {
     console.log("TOP");
-    
-    
+    //this - tag, causing a weird double click bug. selecting with specific elem names
+    var Lane = d3.select("#TopLane");
+    ColorArea(Lane);
 });
 $(document).on('click',"#MidLane", function() {
     console.log("MID");
-    
+    var Lane = d3.select("#MidLane");
+    ColorArea(Lane);
     
 });
+
 $(document).on('click',"#Jungle", function() {
     /*$("#Jungle").toggleClass('.select.path#Jungle');*/
     var Rift = d3.select("#container");
-    var Jungle = d3.select(this);
+    var Jungle = d3.select("#Jungle");
     
-    console.log("Jungle");
+    //other lanes stored as vars for style changes
+    var MidLane = d3.select("MidLane");
+    var TopLane = d3.select("MidLane");
+    var BotLane = d3.select("#BotLane");
+    //crude bug testing log
     
     if(Test === 10) {
+        //fill with orange if selected first time
         Jungle.style("fill", "rgb(255,165,0)");
+        //all other lanes with their og color
+        TopLane.style("fill", "rgb(255, 238, 170)");
+        BotLane.style("fill", "rgb(255, 238, 170)");
+        MidLane.style("fill", "rgb(255, 238, 170)");
+        console.log("Jungle is orange");
+        console.log(Test);
         Test = 5;
     }
     else{
+        //fill with green if second
         Jungle.style("fill", "rgb(136, 187, 68)");
+        console.log(Test);
         Test = 10;
+        console.log("Jungle 2nd time Lane selected");
     }
     
     var t = d3.transition()
@@ -74,12 +94,44 @@ $(document).on('click',"#Jungle", function() {
       .style("width", width1 + 'px')
       .style("height", height1 + 'px');
     //TODO if condition - orange on click, switch to original
-    
     //TODO method call to winrate
     
 });
 $(document).on('click',"#BotLane", function() {
     console.log("BOT");
-    window.location.href = "GoldTest.html"
-    
+    //window.location.href = "GoldTest.html"
+    var Lane = d3.select("#BotLane");
+    ColorArea(Lane);
 });
+
+//color lane with desired highlight and remove color from others
+function ColorArea(Lane) {
+    var Rift = d3.select("#container");
+    var Jungle = d3.select("#Jungle");
+    console.log("Lane");
+    
+    if(Test2 === 10) {
+        //TODO when selected for the first time, select all other elems and change their color
+        Lane.style("fill", "rgb(255,165,0)");
+        Jungle.style("fill", "rgb(136, 187, 68)");
+        console.log(Test2);
+        Test2 = 5;
+        console.log("1st time Lane selected");
+    }
+    else{
+        //filling with lane color if second time
+        Lane.style("fill", "rgb(255, 238, 170)");
+        console.log(Test2);
+        Test2 = 10;
+        console.log("Lane selected 2nd time");
+    }
+    
+    var t = d3.transition()
+              .duration(750).ease(d3.easeLinear);
+    
+    Rift.transition(t)
+        .style("width", width1 + 'px')
+        .style("height", height1 + 'px');
+    //TODO if condition - orange on click, switch to original
+    //TODO method call to winrate
+}
