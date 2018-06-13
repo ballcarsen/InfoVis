@@ -47,3 +47,6 @@ path#Jungle:hover{
     padding: 5px;
     max-width: 300px;
 }
+.column#wideChart{
+    width: 600px !important;
+}

@@ -87,13 +87,13 @@ $(document).on('click',"#Jungle", function() {
         Test2 = 5;
         console.log("Jungle 2nd time Lane selected");
     }
-    
+    /*
     var t = d3.transition()
       .duration(750).ease(d3.easeLinear);
     Rift.transition(t)
       .style("width", width1 + 'px')
       .style("height", height1 + 'px');
-    
+    */
     //TODO method call to Junglewinrate
     JungleWinGraph();
 });
@@ -128,12 +128,13 @@ function ColorArea(Lane) {
         console.log("Lane selected 2nd time");
     }
     
+    /*
     var t = d3.transition()
               .duration(750).ease(d3.easeLinear);
-    
     Rift.transition(t)
         .style("width", width1 + 'px')
         .style("height", height1 + 'px');
+    */
     //TODO if condition - orange on click, switch to original
     //TODO method call to winrate
 }
