@@ -53,3 +53,9 @@ div.tooltip {
     border-radius: 8px;
     pointer-events: none;
 }
+/*For the gold rate */
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}

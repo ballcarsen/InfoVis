@@ -83,6 +83,7 @@ function mousemover(d){
 
 }
 function clicked(d){
+    runGold(d.name)
     console.log(d.names)
 }
 }

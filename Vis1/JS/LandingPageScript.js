@@ -54,6 +54,7 @@ $(document).on('click',"#TopLane", function() {
 });
 $(document).on('click',"#MidLane", function() {
     console.log("MID");
+    runBar('mid')
     var Lane = d3.select("#MidLane");
     ColorArea(Lane);
     //TODO call method for Midlane winrate graph
