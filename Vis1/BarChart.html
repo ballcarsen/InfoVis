@@ -17,7 +17,7 @@
     fill: none;
     pointer-events: all;
   }
-
+  .axis path,
   .axis {
     font: 10px sans-serif;
   }
@@ -28,41 +28,25 @@
       stroke: #000;
       shape-rendering: crispEdges;
     }
-.d3-tip {
-  line-height: 1;
-  font-weight: bold;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
-}
 
-/* Creates a small triangle extender for the tooltip */
-.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px;
-  width: 100%;
-  line-height: 1;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
+.toolTip {
   position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
   text-align: center;
 }
 
-/* Style northward tooltips differently */
-.d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
-}
 
 	</style>
 </head>
 
 <body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="http://d3js.org/d3.v4.min.js"></script>
+
 
 <script>
 // set the dimensions of the canvas
@@ -74,19 +58,27 @@ var div = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
-var zoom = d3.behavior.zoom()
+var tooltip = d3.select("body").append("div").attr("class", "toolTip");
+
+
+/*var zoom = d3.behavior.zoom()
     .scaleExtent([1, 10])
-    .on("zoom", zoomed);
+    .on("zoom", zoomed);*/
 
 // set the ranges
-var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
 
-var y = d3.scale.linear().range([height, 0]);
+var y = d3.scaleLinear()
+	.range([0, height]);
+
+var x = d3.scaleBand()
+	.range([0,width])
+	.padding(0.1)
+
 
 // define the axis
-var xAxis = d3.svg.axis()
-    .scale(x)
-    .orient("bottom")
+d3.select(".axis")
+	.call(d3.axisBottom(x));
+
 var files = ["top-wins", "jg-wins", "mid-wins", "bot-wins", "support-wins"]
 
 var select = d3.select('body')
@@ -104,11 +96,8 @@ function onchange() {
     selectValue = d3.select('select'.property('value'))
 }
 
-var yAxis = d3.svg.axis()
-    .scale(y)
-    .orient("left")
-    .ticks(10);
 
+/*
 var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
@@ -116,7 +105,7 @@ var tip = d3.tip()
     return d.name + "<strong> : Win Rate - </strong> <span style='color:red'>" + d.rate + "%" + "</span> for "
         + d.games + "<strong> games</strong>";
   })
-
+*/
 
 // add the SVG element
 var svg = d3.select("body").append("svg")
@@ -125,11 +114,12 @@ var svg = d3.select("body").append("svg")
 
   .append("g")
     .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")")
-    .call(zoom);
-svg.call(tip);
+          "translate(" + margin.left + "," + margin.top + ")");
+    //.call(zoom);
+//svg.call(tip);
+
 // load the data
-d3.json( 'mid-wins.json', function(error, data) {
+d3.json('support-wins.json', function(error, data) {
     data.sort(function(a, b) {
         return b.games - a.games;
     });
@@ -150,7 +140,7 @@ d3.json( 'mid-wins.json', function(error, data) {
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(xAxis)
+      .call(d3.axisBottom(x))
     .selectAll("text")
       .style("text-anchor", "end")
       .attr("dx", "-.8em")
@@ -159,7 +149,7 @@ d3.json( 'mid-wins.json', function(error, data) {
 
   svg.append("g")
       .attr("class", "y axis")
-      .call(yAxis)
+      .call(d3.axisBottom(y))
     .append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 5)
@@ -177,22 +167,32 @@ d3.json( 'mid-wins.json', function(error, data) {
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.rate); })
       .attr("height", function(d) { return height - y(d.rate); })
-      .on('mouseover', tip.show)
-      .on('mouseout', tip.hide)
-      .on('click', onclick);
+      //.on('mouseover', tip.show)
+      //.on('mouseout', tip.hide)
+	  .on('click', barFunc)
 
   function type(d) {
       d.rate = +d.rate;
       return d;
   }
 });
-
+/*
 function zoomed() {
   svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 }
-function onclick(){
-//TODO call line chart method ChampGoldRate
+*/
+function barFunc(d) {
+	console.log(d.name);
+	BotLaneWinGraph();
 }
+/*
+$(document).on('click', ".bar", function(){
+//TODO call line chart method ChampGoldRate
+
+	console.log(".bar.");
+	BotLaneWinGraph();
+});
+*/
 
 </script>
 
