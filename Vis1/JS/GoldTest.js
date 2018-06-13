@@ -40,7 +40,7 @@ var	yAxisRight = d3.svg.axis().scale(y1)
 
 var	valueline = d3.svg.line()
                      .x(function(d) { return x(d.date); })
-                     .y(function(d) { return y0(d.close); });
+                     .y(function(d) { return y0(d.value); });
 
 var	valueline2 = d3.svg.line()
                       .x(function(d) { return x(d.date); })
@@ -56,19 +56,19 @@ var	svg = d3.select("body")
 
 //TODO get our own data as champion average gold over time
 var data = [
-    {"date":"9-Apr-12","close":436,"open":9.04},
-    {"date":"7-Apr-12","close":221,"open":4.02},
-    {"date":"5-Apr-12","close":113,"open":9.02},
-    {"date":"4-Apr-12","close":64,"open":32.05},
-    {"date":"3-Apr-12","close":29,"open":46.03},
-    {"date":"2-Apr-12","close":18,"open":51.03}
+    {"date":"9-Apr-12","value":436,"open":9.04},
+    {"date":"7-Apr-12","value":221,"open":4.02},
+    {"date":"5-Apr-12","value":113,"open":9.02},
+    {"date":"4-Apr-12","value":64,"open":32.05},
+    {"date":"3-Apr-12","value":29,"open":46.03},
+    {"date":"2-Apr-12","value":18,"open":51.03}
 ];
 
 // Get the data
 data.forEach(function(d) {
     //TODO d.time = +d.time (from the file)
     d.date = parseDate(d.date);
-    d.close = +d.close;
+    d.value = +d.value;
     d.open = +d.open;
 });
 
@@ -78,10 +78,10 @@ x.domain(d3.extent(data, function(d) { return d.date; }));
 
 //TODO extent of gold income - how much is the max
 y0.domain([0, d3.max(data, function(d) {
-    return Math.max(d.close); })]);
+    return Math.max(d.value); })]);
 y1.domain([0, d3.max(data, function(d) {
-    //TODO close - open scales with open elements
-    return Math.max(d.close); })]);
+    //TODO value - open scales with open elements
+    return Math.max(d.value); })]);
 
 
 
