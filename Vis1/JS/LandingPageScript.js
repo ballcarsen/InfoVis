@@ -89,6 +89,10 @@ $(document).on('click',"#Jungle", function() {
         Test = 10;
         Test2 = 5;
         console.log("Jungle 2nd time Lane selected");
+        //empty the div elements of garbage
+        $( "#winRateChart" ).empty();
+        $( "#ChordDiagram" ).empty();
+        $( "#GoldChart" ).empty();
     }
     /*
     var t = d3.transition()
@@ -130,6 +134,10 @@ function ColorArea(Lane) {
         Test2 = 10;
         Test = 10;
         console.log("Lane selected 2nd time");
+        //empty the div elements of garbage
+        $( "#winRateChart" ).empty();
+        $( "#ChordDiagram" ).empty();
+        $( "#GoldChart" ).empty();
     }
     
     /*

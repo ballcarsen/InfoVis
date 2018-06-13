@@ -15,7 +15,7 @@ path#Jungle{
     -o-transition: all .5s ease;
 }
 
-path{
+path#TopLane, path#MidLane, path#BotLane{
     fill: rgb(255, 238, 170);
     pointer-events:all;
     
@@ -24,11 +24,9 @@ path{
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
 }
-path:hover{
-    fill: rgb(210, 105, 30);
-}
 
-path#Jungle:hover{
+
+path#Jungle:hover, path#TopLane:hover, path#MidLane:hover, path#BotLane:hover{
     fill: rgb(210, 105, 30);
 
 }
