@@ -99,6 +99,7 @@ $(document).on('click',"#Jungle", function() {
 });
 $(document).on('click',"#BotLane", function() {
     console.log("BOT");
+    runChord()
     //window.location.href = "GoldTest.html"
     var Lane = d3.select("#BotLane");
     ColorArea(Lane);
