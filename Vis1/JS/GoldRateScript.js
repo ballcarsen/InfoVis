@@ -30,12 +30,13 @@ function runGold(name, lane) {
 // Get the data
     d3.csv("../top-rates.csv", function (error, data) {
         if (error) throw error;
-
         // format the data
+
         data.forEach(function (d) {
             d.time = +d.time;
-            d.value = +d.value;
+            d.value = +d.value
         });
+
 
         // Scale the range of the data
         x.domain(d3.extent(data, function (d) {

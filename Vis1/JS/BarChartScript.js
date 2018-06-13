@@ -61,11 +61,17 @@ d3.json("../"+ fileName + "-wins.json", function(error, data) {
       .attr("dx", "-.8em")
       .attr("dy", "-.55em")
       .attr("transform", "rotate(-90)" );
+  svg.append("text")
+      .attr("transform", "rotate(0)")
+      .attr("x", (width / 4))
+      .attr("y", height + 70)
+      .text("Champions Ordered By Games Played");
+
 
   // add the y Axis
   svg.append("g")
       .call(d3.axisLeft(y));
-    svg.append("text")
+  svg.append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 0 - margin.left)
       .attr("x",0 - (height / 2))
@@ -83,7 +89,10 @@ function mousemover(d){
 
 }
 function clicked(d){
-    runGold(d.name)
-    console.log(d.names)
+    //Dont terminate
+    $( "#GoldChart" ).empty()
+    runGold(d.name, fileName)
+    console.log(d.name)
+
 }
 }

@@ -130,7 +130,7 @@ with open('top-rates.csv', 'w') as out:
 
             for i in range(len(value.gold_array)):
                 if i < 30:
-                    out.write(str(value.name) + ", " + str(i) + ", " + str(value.gold_array[i]) + ".0\n")
+                    out.write(str(value.name) + "," + str(i) + "," + str(value.gold_array[i]) + ".0\n")
                 i+=1
             count +=1
 
