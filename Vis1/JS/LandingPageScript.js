@@ -46,6 +46,7 @@ Test2 = 10;
 /*Function for the clicking*/
 $(document).on('click',"#TopLane", function() {
     console.log("TOP");
+    runBar('top')
     //this - tag, causing a weird double click bug. selecting with specific elem names
     var Lane = d3.select("#TopLane");
     ColorArea(Lane);
@@ -59,6 +60,7 @@ $(document).on('click',"#MidLane", function() {
 });
 $(document).on('click',"#Jungle", function() {
     /*$("#Jungle").toggleClass('.select.path#Jungle');*/
+    runBar('jg')
     var Rift = d3.select("#SvgRiftMap");
     var Jungle = d3.select("#Jungle");
     //other lanes stored as vars for style changes
