@@ -63,7 +63,6 @@ $(document).on('click',"#MidLane", function() {
 });
 $(document).on('click',"#Jungle", function() {
     clear()
-    /*$("#Jungle").toggleClass('.select.path#Jungle');*/
     runBar('jg')
     var Rift = d3.select("#SvgRiftMap");
     var Jungle = d3.select("#Jungle");
@@ -78,32 +77,11 @@ $(document).on('click',"#Jungle", function() {
         //fill with orange if selected first time
         Jungle.style("fill", "rgb(255,165,0)");
         //all other lanes with their og color
-        TopLane.style("fill", "rgb(255, 238, 170)");
-        BotLane.style("fill", "rgb(255, 238, 170)");
-        MidLane.style("fill", "rgb(255, 238, 170)");
+        
         console.log("Jungle is orange");
         console.log(Test);
         Test = 10;
     }
-    else{
-        //fill with green if second
-        Jungle.style("fill", "rgb(136, 187, 68)");
-        console.log(Test);
-        Test = 10;
-        Test2 = 10;
-        console.log("Jungle 2nd time Lane selected");
-        //empty the div elements of garbage
-        $( "#winRateChart" ).empty();
-        $( "#ChordDiagram" ).empty();
-        $( "#GoldChart" ).empty();
-    }
-    /*
-    var t = d3.transition()
-      .duration(750).ease(d3.easeLinear);
-    Rift.transition(t)
-      .style("width", width1 + 'px')
-      .style("height", height1 + 'px');
-    */
     //TODO method call to Junglewinrate
     JungleWinGraph();
 });
@@ -120,17 +98,24 @@ $(document).on('click',"#BotLane", function() {
 });
 //color lane with desired highlight and remove color from others
 function clear() {
-    d3.select("#Jungle").style("fill", "rgb(255, 238, 170)");
+    d3.select("#Jungle").style("fill", "rgb(136, 187, 68)");
     d3.select("#MidLane").style("fill", "rgb(255, 238, 170)");
     d3.select("#BotLane").style("fill", "rgb(255, 238, 170)");
     d3.select("#TopLane").style("fill", "rgb(255, 238, 170)");
-    $( "#winRateChart" ).empty();
-    $( "#ChordDiagram" ).empty();
-    $( "#GoldChart" ).empty();
+    
+    //TESTING TODO return on hover fill properties
+    d3.select("#Jungle").on('mouseover', function(d) {
+        d3.select(this).style("fill", "rgb(210, 105, 30);");
+    });
+    
+    //Clearing div elements of old stuff
+    $("#winRateChart").empty();
+    $("#ChordDiagram" ).empty();
+    $("#GoldChart").empty();
 }
+//TODO remove this and check that it doesn't affect other methods
 function ColorArea(Lane) {
-
-    var Rift = d3.select("#SvgRiftMap");
+    //var Rift = d3.select("#SvgRiftMap");
     var Jungle = d3.select("#Jungle");
     console.log("Lane");
 
@@ -140,24 +125,13 @@ function ColorArea(Lane) {
     console.log(Test2);
     Test2 = 10;
     console.log("1st time Lane selected");
-    /*
-    var t = d3.transition()
-              .duration(750).ease(d3.easeLinear);
-    Rift.transition(t)
-        .style("width", width1 + 'px')
-        .style("height", height1 + 'px');
-    */
-    //TODO if condition - orange on click, switch to original
-    //TODO method call to winrate
 }
-
 
 //calling the functions for toplane win graphs
 //TODO linking the two thingies to call functions
 function JungleWinGraph() {
     console.log("JungleLane")
 }
-
 function BotLaneWinGraph() {
     console.log("botLane")
 }
