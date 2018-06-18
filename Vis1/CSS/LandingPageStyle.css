@@ -1,8 +1,3 @@
-#SvgRiftMap{
-    width: 300px;
-    height: 300px;
-}
-
 path#Jungle{
     fill: rgb(136, 187, 68);
     stroke: rgb(0, 0, 0);
@@ -14,7 +9,6 @@ path#Jungle{
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
 }
-
 path#TopLane, path#MidLane, path#BotLane{
     fill: rgb(255, 238, 170);
     pointer-events:all;
@@ -24,27 +18,39 @@ path#TopLane, path#MidLane, path#BotLane{
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
 }
-
-
 path#Jungle:hover, path#TopLane:hover, path#MidLane:hover, path#BotLane:hover{
     fill: rgb(210, 105, 30);
 
 }
+
 /*testing css for the div row*/
+
+#SvgRiftMap{
+    width: 50vh;
+    height: 50vh;
+}
+
+
 * {
     box-sizing: border-box;
 }
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Create three equal columns that sits next to each other */
 .column {
     flex: 50%;
     padding: 5px;
-    max-width: 300px;
+    max-width: 50vw;
 }
 .column#wideChart{
-    width: 600px !important;
+    width: 50vh !important;
+    height: 50vh;
+}
+
+.column#GoldChart{
+    max-width: fit-content;
 }
