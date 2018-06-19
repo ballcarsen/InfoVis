@@ -1,8 +1,8 @@
 // set the dimensions and margins of the graph
 function runGold(name, lane) {
-    var margin = {top: 20, right: 20, bottom: 50, left: 70},
-        width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+    var margin = {top: 20, right: 20, bottom: 90, left: 75},
+        width = 1000 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
 
 // set the ranges
     var x = d3.scaleLinear().range([0, width]);
@@ -28,7 +28,7 @@ function runGold(name, lane) {
             "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
-    d3.csv("../"+ lane +  "-rates.csv", function (error, data) {
+    d3.csv("../processed_data/" + lane + "-rates.csv", function (error, data) {
         if (error) throw error;
         // format the data
 
@@ -40,23 +40,23 @@ function runGold(name, lane) {
 
         });
 
-        var nest  = d3.nest()
-            .key(function(d){
-            return d.champ
-        })
-        .entries(data)
+        var nest = d3.nest()
+            .key(function (d) {
+                return d.champ
+            })
+            .entries(data)
 
-        var dataFiltered = nest.filter(function (d) { return d.key === name })
+        var dataFiltered = nest.filter(function (d) {
+            return d.key === name
+        })
 
         // Scale the range of the data
         x.domain(d3.extent(data, function (d) {
             return d.time;
         }));
-        y.domain([0, d3.max(data, function(d) {
+        y.domain([0, d3.max(data, function (d) {
             return d.value;
         })]);
-
-
 
 
         // Add the X Axis
@@ -65,31 +65,31 @@ function runGold(name, lane) {
             .call(d3.axisBottom(x));
         //TEST
         svg.append("text")
-           .attr("transform", "rotate(0)")
-           .attr("x", (width / 4))
-           .attr("y", height + 35)
-           .text("Selected champion");
+            .attr("transform", "rotate(0)")
+            .attr("x", (width / 4))
+            .attr("y", height + 35)
+            .text("Selected champion");
 
         // Add the Y Axis
         svg.append("g")
             .call(d3.axisLeft(y));
         //TEST
         svg.append("text")
-           .attr("transform", "rotate(-90)")
-           .attr("y", 0 - margin.left)
-           .attr("x",10 - (height / 2))
-           .attr("dy", "1em")
-           .style("text-anchor", "middle")
-           .text("Gold earned");
-                // Add the valueline path.
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - margin.left)
+            .attr("x", 10 - (height / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Gold earned");
+        // Add the valueline path.
         svg.selectAll(".line")
             .data(dataFiltered)
             .enter()
             .append("path")
-                .attr("class", "line")
-                .attr("d", function(d) {
-                    return valueline(d.values)
-                });
+            .attr("class", "line")
+            .attr("d", function (d) {
+                return valueline(d.values)
+            });
 
     });
 }

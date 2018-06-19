@@ -22,7 +22,7 @@ var svg = d3.select("#winRateChart").append("svg")
           "translate(" + margin.left + "," + margin.top + ")");
 var tooltip = d3.select("#winRateChart").append("div").attr("class", "toolTip");
 // get the data
-d3.json("../"+ fileName + "-wins.json", function(error, data) {
+d3.json("../processed_data/"+ fileName + "-wins.json", function(error, data) {
   if (error) throw error;
 
   data.sort(function(a, b) {

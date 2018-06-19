@@ -85,12 +85,12 @@ $(document).on('click',"#Jungle", function() {
     //TODO method call to Junglewinrate
     JungleWinGraph();
 });
+
 $(document).on('click',"#BotLane", function() {
     clear()
     console.log("BOT");
     runChord()
     runBar("bot")
-    //window.location.href = "GoldTest.html"
     var Lane = d3.select("#BotLane");
     ColorArea(Lane);
     

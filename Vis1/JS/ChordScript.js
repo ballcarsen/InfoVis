@@ -29,7 +29,7 @@ function runChord() {
         .attr("class", "tooltip")
         .style("opacity", 0);
 
-    d3.json("../flare.json", function (error, classes) {
+    d3.json("../processed_data/flare.json", function (error, classes) {
         if (error) throw error;
 
         var root = packageHierarchy(classes)
