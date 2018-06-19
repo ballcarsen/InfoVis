@@ -65,7 +65,7 @@ function runGold(name, lane) {
             .attr("transform", "rotate(0)")
             .attr("x", (width / 4))
             .attr("y", height + 35)
-            .text("Selected champion");
+            .text("Selected champion: " + name);
 
         // Add the Y Axis
         svg.append("g")
