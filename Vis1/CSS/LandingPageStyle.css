@@ -28,6 +28,7 @@ path#Jungle:hover, path#TopLane:hover, path#MidLane:hover, path#BotLane:hover{
 #SvgRiftMap{
     width: 50vh;
     height: 50vh;
+    float: left;
 }
 
 
@@ -36,7 +37,6 @@ path#Jungle:hover, path#TopLane:hover, path#MidLane:hover, path#BotLane:hover{
 }
 
 .row {
-    display: flex;
     flex-wrap: wrap;
 }
 
@@ -47,9 +47,11 @@ path#Jungle:hover, path#TopLane:hover, path#MidLane:hover, path#BotLane:hover{
     max-width: 50vw;
 }
 .column#wideChart{
-    width: 50vh !important;
+    width: 50vw !important;
     height: 50vh;
 }
+
+
 
 .column#GoldChart{
     max-width: fit-content;

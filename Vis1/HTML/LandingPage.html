@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
+    <!----Carsen Ball & Joonas Budde 2018------>
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>OurImageMenu</title>
+    <title>INFOVIS Project</title>
     <link rel="stylesheet" type="text/css" href="../CSS/LandingPageStyle.css">
     <link rel="stylesheet" type="text/css" href="../CSS/ChordStyle.css">
     <link rel="stylesheet" type="text/css" href="../CSS/BarChartStyle.css">
@@ -18,22 +19,17 @@
 
 </head>
 <body>
-<!---Goal is to create a div SvgRiftMap for the four visualizations--->
-<div class ="column">
-    <div class="row">
-        <div class = "column" id = "SvgRiftMap">
-            <img src="../img/vectSummonersRift.svg" class="svg" id="Rift" alt = "Map of summoners rift"/>
-        </div>
-        <div class="column" id = "GoldChart">
-
-        </div>
-    </div>
-<div class="row" id = "winRateChart">
-
+<!---Goal is to create a div SvgRiftMap for the four visualizations and a div for each viz--->
+<div class ="row">
+    <div class = "column" id = "SvgRiftMap">
+        <img src="../img/vectSummonersRift.svg" class="svg" id="Rift" alt = "Map of summoners rift"/></div>
+        
+    <div class="column" id = "GoldChart"></div>
 </div>
+<div class="row">
+    <div class="column" id = "winRateChart"></div>
+    <div class="column" id ="ChordDiagram"></div>
 </div>
-
-<div id ="ChordDiagram"></div>
 
 </body>
 </html>
