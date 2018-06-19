@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Report</title>
+    <style>
+        p{width: 70vh}
+    </style>
 </head>
 <body>
 <h1>
@@ -19,8 +22,57 @@ Final Report
 </h2>
 
 <p>
-
+The data set is a collection of professional League Of Legend game data recorded from 2015-2018. The data set contains
+    many attributed pertaining to the game, therefore the data set was processed to create a subset of data. The positions
+    of the game are different lanes. There are Top, Middle, Jungle, Bottom and Support lanes and multiple Champions,
+    or characters, can be chosen to play in the lanes. The data set explores the percentage of games won for each Champion
+    when played in a certain lane, as well as the specific champion's average gold value through out the games. The Bottom
+    and Support lanes are heavily co-dependent on each other throughout the game; the data set explores the combination
+    of different champions played in the aforementioned lanes and the associated win rates of the champion pairs.
 </p>
-
+<h2>The User Tasks</h2>
+<p>
+    The user needs the ability to filter the data that is displayed for the desired lane. Once the win rates are displayed
+    for the lane, the user then needs the ability to select the desired champion for that of which the champion's gold
+    rates will be displayed. If the user selects the Bottom lane, the Bottom Support pair win rates also need to be displayed,
+    as well as the ability to see the Bottom lane win rates or the Support lane win rates.
+</p>
+<h2>Dashboard Design and Implementation</h2>
+<p>
+    The dashboard solution that was proposed was to have an interactive map, that mirrors the structure of the map of
+    the game. To allow for interaction, the map has to be able to be hovered over and clicked upon. Once a lane is chosen,
+    the corresponding data is to be displayed below the map. The dashboard also needs to display the gold rate graph of
+    a selected champion above the win rate data. For the Bottom-Support pairs, an interactive display of the win rates was
+    proposed, to allow for the selection of different Bottom or Support champions.
 </body>
+<p>
+    To implement the interactive map, a scalable vector graphic was used. Each lane on the map is hoverable and can be clicked.
+    When a lane is chosen, a bar graph is displayed. The win rates of each champion who has played in the lane correspond
+    to the height of each bar. To allow for selection of the champion whose gold rate will be displayed, each bar is clickable.
+    When a bar is clicked, a line graph displaying the gold rate of the selected champion
+    appears above the bar graph. For the Bottom and Support lane, a radio button allows the user to change weather or not
+    Bottom or Support win rates are displayed. To visualize the Bottom-Support pair win rates, a chord diagram was implemented.
+    Upon hovering over a desired champion, the champions that the desired champion has played with are highlighted.
+    The win rates of the top three champions that have been played as a pair, are displayed in a tool tip.
+</p>
+<h2>Limitations</h2>
+<p>
+    Our solution allows for the exploration of statistics pertaining to a certain lane, except for the Bottom and Support pairs,
+    it does not allow for the comparison of champions from different lanes. That said most users are most concerned with
+    how we a champion does in a specific lane. Also, our solution does not allow for the comparison of multiple champions'
+    gold rates.
+<p/>
+<h2>Value to the User</h2>
+<p>
+    Because of the interactive map, the user is able to filter the data by their desired lane of exploration.
+    The solution allows for the user to compare a selected champion to other common champions played in the same lane.
+    A user can see the percentage of games that their selected champion has won, and easily compare the win rate to the
+    other champions through the bar graph. If desired, the user is able to gain even further insight to the performance
+    of a champion by viewing the average gold rate over time, displayed as a line plot over time. The user is also able
+    to complete the task of comparing Bottom Support lane pairs through using the interactive chord diagram.
+</p>
+<h2>Insights</h2>
+<p></p>
+<h2>Conclusion</h2>
+<p></p>
 </html>
