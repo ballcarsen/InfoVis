@@ -1,8 +1,8 @@
 function runBar(fileName){
 // set the dimensions and margins of the graph
-var margin = {top: 20, right: 20, bottom: 90, left: 40},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+var margin = {top: 20, right: 20, bottom: 90, left: 75},
+    width = 1000 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
 
 // set the ranges
 var x = d3.scaleBand()

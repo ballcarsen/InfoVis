@@ -1,6 +1,6 @@
 // set the dimensions and margins of the graph
 function runGold(name, lane) {
-    var margin = {top: 20, right: 20, bottom: 30, left: 50},
+    var margin = {top: 20, right: 20, bottom: 50, left: 70},
         width = 960 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
@@ -63,10 +63,24 @@ function runGold(name, lane) {
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
+        //TEST
+        svg.append("text")
+           .attr("transform", "rotate(0)")
+           .attr("x", (width / 4))
+           .attr("y", height + 35)
+           .text("Selected champion");
 
         // Add the Y Axis
         svg.append("g")
             .call(d3.axisLeft(y));
+        //TEST
+        svg.append("text")
+           .attr("transform", "rotate(-90)")
+           .attr("y", 0 - margin.left)
+           .attr("x",10 - (height / 2))
+           .attr("dy", "1em")
+           .style("text-anchor", "middle")
+           .text("Gold earned");
                 // Add the valueline path.
         svg.selectAll(".line")
             .data(dataFiltered)
