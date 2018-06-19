@@ -1,5 +1,5 @@
 /*
-  * Replace all SVG images with inline SVG - no need to touch this
+  * Replace all SVG images with inline SVG
   */
 $(function() {
     
@@ -35,53 +35,35 @@ $(function() {
 });
 
 //Here's all the logic for changing color
-//map size
-width1 = 200;
-height1 = 200;
-//temporary tf check
-Test = 10;
-Test2 = 10;
 //Debug functions from earlier
 /*Let's set classes for the paths*/
 /*Function for the clicking*/
 $(document).on('click',"#TopLane", function() {
-    clear()
-    console.log("TOP");
-    runBar('top')
-    //this - tag, causing a weird double click bug. selecting with specific elem names
+    clear();
+    runBar('top');
     var Lane = d3.select("#TopLane");
     ColorArea(Lane);
     HideRadioButtons();
 });
+
 $(document).on('click',"#MidLane", function() {
-    clear()
-    console.log("MID");
-    runBar('mid')
+    clear();
+    runBar('mid');
     var Lane = d3.select("#MidLane");
     ColorArea(Lane);
     HideRadioButtons();
 });
+
 $(document).on('click',"#Jungle", function() {
     HideRadioButtons();
-    clear()
-    runBar('jg')
-    var Rift = d3.select("#SvgRiftMap");
+    clear();
+    runBar('jg');
     var Jungle = d3.select("#Jungle");
-    //other lanes stored as vars for style changes
-    var MidLane = d3.select("MidLane");
-    var TopLane = d3.select("MidLane");
-    var BotLane = d3.select("#BotLane");
     
-    //crude bug testing log for now.
-    //doesn't work correctly, requires 2 clicks
-    if(Test === 10) {
-        //fill with orange if selected first time
-        Jungle.style("fill", "rgb(255,165,0)");
-        //all other lanes with their og color
-        Test = 10;
-    }
+    Jungle.style("fill", "rgb(255,165,0)");
 });
 
+//calling the botlane winrate graph and radio buttons for class selection
 $(document).on('click', "#BotLane", BotLane);
 function BotLane(SupOrAdc) {
     clear();
@@ -108,7 +90,7 @@ function clear() {
     d3.select("#BotLane").style("fill", "rgb(255, 238, 170)");
     d3.select("#TopLane").style("fill", "rgb(255, 238, 170)");
     
-    //TESTING TODO return on hover fill properties
+    //TODO which didn't happen for this project. Return the on hover properties for the map
     d3.select("#Jungle").on('mouseover', function(d) {
         d3.select(this).style("fill", "rgb(210, 105, 30);");
     });
@@ -117,9 +99,8 @@ function clear() {
     $("#winRateChart").empty();
     $("#ChordDiagram" ).empty();
     $("#GoldChart").empty();
-    
 }
-//TODO remove this and check that it doesn't affect other methods
+//Color the lanes according to selection
 function ColorArea(Lane) {
     //var Rift = d3.select("#SvgRiftMap");
     var Jungle = d3.select("#Jungle");
@@ -128,7 +109,7 @@ function ColorArea(Lane) {
     Jungle.style("fill", "rgb(136, 187, 68)");
 }
 
-//TODO radio button for support and adc winrates
+//Show and hide radio buttons
 function ShowRadioButtons(SupOrAdc) {
     var x = document.getElementById("RadioButtons");
     if (x.style.display === "none") {

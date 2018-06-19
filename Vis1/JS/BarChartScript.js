@@ -25,6 +25,7 @@ var tooltip = d3.select("#winRateChart").append("div").attr("class", "toolTip");
 d3.json("../processed_data/"+ fileName + "-wins.json", function(error, data) {
   if (error) throw error;
 
+  //arrange by games played
   data.sort(function(a, b) {
       return b.games - a.games;
   });
@@ -48,10 +49,7 @@ d3.json("../processed_data/"+ fileName + "-wins.json", function(error, data) {
       .on("mousemove", mousemover)
       .on("click", clicked)
       .on("mouseout", function(d){tooltip.style("display", "none");});
-
-
-
-
+  
   // add the x Axis
   svg.append("g")
       .attr("transform", "translate(0," + height + ")")
@@ -66,8 +64,7 @@ d3.json("../processed_data/"+ fileName + "-wins.json", function(error, data) {
       .attr("x", (width / 4))
       .attr("y", height + 75)
       .text("Champions Ordered By Games Played");
-
-
+  
   // add the y Axis
   svg.append("g")
       .call(d3.axisLeft(y));
@@ -80,6 +77,8 @@ d3.json("../processed_data/"+ fileName + "-wins.json", function(error, data) {
       .text("Win Rate %");
 
 });
+
+//Displaying tooltip for the winrate and games played for each champ when mouseovered
 function mousemover(d){
     tooltip
         .style("left", d3.event.pageX - 50 + "px")
@@ -88,11 +87,11 @@ function mousemover(d){
         .html(d.name + "- Games: " + d.games + ", Win Rate: " + d.rate + "%");
 
 }
+
+//Calling the constructor for goldrates
 function clicked(d){
     //Dont terminate
     $( "#GoldChart" ).empty()
     runGold(d.name, fileName)
-    console.log(d.name)
-
 }
 }
