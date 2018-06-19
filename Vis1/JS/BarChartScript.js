@@ -1,6 +1,6 @@
 function runBar(fileName){
 // set the dimensions and margins of the graph
-var margin = {top: 20, right: 20, bottom: 90, left: 75},
+var margin = {top: 40, right: 20, bottom: 90, left: 75},
     width = 1000 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
