@@ -1,3 +1,4 @@
+//Javascript code that uses d3.js to create a chord diagram
 function runChord() {
     var diameter = 960,
         radius = diameter / 2,
@@ -110,7 +111,7 @@ function runChord() {
             .classed("node--source", false);
     }
 
-// Lazily construct the package hierarchy from class names.
+//Construct the package hierarchy from class names.
     function packageHierarchy(classes) {
         var map = {};
 

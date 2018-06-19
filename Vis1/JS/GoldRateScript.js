@@ -1,5 +1,6 @@
-// set the dimensions and margins of the graph
+//Javascript code that uses d3.js to create a line graph
 function runGold(name, lane) {
+// set the dimensions and margins of the graph
     var margin = {top: 20, right: 20, bottom: 90, left: 75},
         width = 1000 - margin.left - margin.right,
         height = 400 - margin.top - margin.bottom;
@@ -39,7 +40,7 @@ function runGold(name, lane) {
 
 
         });
-
+//Nest the data to allow for selection based off of the champion name
         var nest = d3.nest()
             .key(function (d) {
                 return d.champ
@@ -63,7 +64,6 @@ function runGold(name, lane) {
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
-        //TEST
         svg.append("text")
             .attr("transform", "rotate(0)")
             .attr("x", (width / 4))
@@ -72,8 +72,7 @@ function runGold(name, lane) {
 
         // Add the Y Axis
         svg.append("g")
-            .call(d3.axisLeft(y));
-        //TEST
+            .call(d3.axisLeft(y))
         svg.append("text")
             .attr("transform", "rotate(-90)")
             .attr("y", 0 - margin.left)
@@ -81,7 +80,7 @@ function runGold(name, lane) {
             .attr("dy", "1em")
             .style("text-anchor", "middle")
             .text("Gold earned");
-        // Add the valueline path.
+        // Add the valueline path
         svg.selectAll(".line")
             .data(dataFiltered)
             .enter()

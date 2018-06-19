@@ -138,7 +138,7 @@ with open('bot-rates.csv', 'w') as out:
 
         for i in range(len(value.gold_array)):
             out.write(str(value.name) + "," + str(i) + "," + str(value.gold_array[i]) + ".0\n")
-with open('sup-rates.csv', 'w') as out:
+with open('support-rates.csv', 'w') as out:
     out.write("champ,time,value\n")
     count = 0
     for key, value in supChamps.items():
