@@ -121,11 +121,27 @@ for index, row in matchInfo.iterrows():
     else:
         supChamps[red_sup].add_gold(get_array(red_sup_gold))
 
-with open('top-rates.csv', 'w') as out:
-    out.write("champ, time, value\n")
+with open('mid-rates.csv', 'w') as out:
+    out.write("champ,time,value\n")
     count = 0
-    for key, value in topChamps.items():
+    for key, value in midChamps.items():
+        value.average_gold_rate()
 
+        for i in range(len(value.gold_array)):
+            out.write(str(value.name) + "," + str(i) + "," + str(value.gold_array[i]) + ".0\n")
+
+with open('bot-rates.csv', 'w') as out:
+    out.write("champ,time,value\n")
+    count = 0
+    for key, value in botChamps.items():
+        value.average_gold_rate()
+
+        for i in range(len(value.gold_array)):
+            out.write(str(value.name) + "," + str(i) + "," + str(value.gold_array[i]) + ".0\n")
+with open('sup-rates.csv', 'w') as out:
+    out.write("champ,time,value\n")
+    count = 0
+    for key, value in supChamps.items():
         value.average_gold_rate()
 
         for i in range(len(value.gold_array)):

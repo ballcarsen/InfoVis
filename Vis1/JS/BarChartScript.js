@@ -64,7 +64,7 @@ d3.json("../"+ fileName + "-wins.json", function(error, data) {
   svg.append("text")
       .attr("transform", "rotate(0)")
       .attr("x", (width / 4))
-      .attr("y", height + 70)
+      .attr("y", height + 75)
       .text("Champions Ordered By Games Played");
 
 
