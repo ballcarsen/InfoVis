@@ -23,11 +23,16 @@
 <div class ="row">
     <div class = "column" id = "SvgRiftMap">
         <img src="../img/vectSummonersRift.svg" class="svg" id="Rift" alt = "Map of summoners rift"/></div>
-        
+    <form action="" id="RadioButtons" style="display: none">
+        <input type="radio" id="BOT" name="BOT" value="adc" onclick="BotLane('bot')"> ADC<br>
+        <input type="radio" name="BOT" value="sup" onclick="BotLane('support')"> SUP<br>
+    </form>
     <div class="column" id = "GoldChart"></div>
 </div>
 <div class="row">
-    <div class="column" id = "winRateChart"></div>
+    <div class="column" id = "winRateChart">
+    
+    </div>
     <div class="column" id ="ChordDiagram"></div>
 </div>
 

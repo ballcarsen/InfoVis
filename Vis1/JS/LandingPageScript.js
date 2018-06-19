@@ -51,7 +51,7 @@ $(document).on('click',"#TopLane", function() {
     //this - tag, causing a weird double click bug. selecting with specific elem names
     var Lane = d3.select("#TopLane");
     ColorArea(Lane);
-    //TODO call method for toplane winrate graph
+    HideRadioButtons();
 });
 $(document).on('click',"#MidLane", function() {
     clear()
@@ -59,9 +59,10 @@ $(document).on('click',"#MidLane", function() {
     runBar('mid')
     var Lane = d3.select("#MidLane");
     ColorArea(Lane);
-    //TODO call method for Midlane winrate graph
+    HideRadioButtons();
 });
 $(document).on('click',"#Jungle", function() {
+    HideRadioButtons();
     clear()
     runBar('jg')
     var Rift = d3.select("#SvgRiftMap");
@@ -77,25 +78,29 @@ $(document).on('click',"#Jungle", function() {
         //fill with orange if selected first time
         Jungle.style("fill", "rgb(255,165,0)");
         //all other lanes with their og color
-        
-        console.log("Jungle is orange");
-        console.log(Test);
         Test = 10;
     }
-    //TODO method call to Junglewinrate
-    JungleWinGraph();
 });
 
-$(document).on('click',"#BotLane", function() {
-    clear()
-    console.log("BOT");
-    runChord()
-    runBar("bot")
+$(document).on('click', "#BotLane", BotLane);
+function BotLane(SupOrAdc) {
+    clear();
     var Lane = d3.select("#BotLane");
-    ColorArea(Lane);
+    ShowRadioButtons(SupOrAdc);
     
-    MakeRadioButtons();
-});
+    if (SupOrAdc === "bot" || SupOrAdc === "support") {
+        console.log("test me");
+        runBar(SupOrAdc);
+        runChord();
+    }
+    else {
+        console.log("BOT");
+        runChord();
+        runBar("bot")
+}
+    ColorArea(Lane);
+}
+
 //color lane with desired highlight and remove color from others
 function clear() {
     d3.select("#Jungle").style("fill", "rgb(136, 187, 68)");
@@ -112,27 +117,31 @@ function clear() {
     $("#winRateChart").empty();
     $("#ChordDiagram" ).empty();
     $("#GoldChart").empty();
+    
 }
 //TODO remove this and check that it doesn't affect other methods
 function ColorArea(Lane) {
     //var Rift = d3.select("#SvgRiftMap");
     var Jungle = d3.select("#Jungle");
-    console.log("Lane");
-
 
     Lane.style("fill", "rgb(255,165,0)");
     Jungle.style("fill", "rgb(136, 187, 68)");
-    console.log(Test2);
-    Test2 = 10;
-    console.log("1st time Lane selected");
 }
 
 //TODO radio button for support and adc winrates
-function MakeRadioButtons() {
-    var adc = document.getElementById("#winRateChart").createElement("INPUT");
-    adc.setAttribute("type", "radio");
-    adc.checked = true;
-    
-    var sup = document.getElementById("#winRateChart").createElement("INPUT");
-    sup.setAttribute("type", "radio");
+function ShowRadioButtons(SupOrAdc) {
+    var x = document.getElementById("RadioButtons");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    if (SupOrAdc !== "support") {
+        document.getElementById("BOT").checked = true
+    }
+    clear();
+}
+function HideRadioButtons() {
+    var x = document.getElementById("RadioButtons");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    }
 }
