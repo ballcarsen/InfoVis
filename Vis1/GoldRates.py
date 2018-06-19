@@ -125,14 +125,12 @@ with open('top-rates.csv', 'w') as out:
     out.write("champ, time, value\n")
     count = 0
     for key, value in topChamps.items():
-        if count < 3:
-            value.average_gold_rate()
 
-            for i in range(len(value.gold_array)):
-                if i < 30:
-                    out.write(str(value.name) + "," + str(i) + "," + str(value.gold_array[i]) + ".0\n")
-                i+=1
-            count +=1
+        value.average_gold_rate()
+
+        for i in range(len(value.gold_array)):
+            out.write(str(value.name) + "," + str(i) + "," + str(value.gold_array[i]) + ".0\n")
+
 
 
 

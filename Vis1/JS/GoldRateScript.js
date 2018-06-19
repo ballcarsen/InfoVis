@@ -33,24 +33,31 @@ function runGold(name, lane) {
         // format the data
 
         data.forEach(function (d) {
+            d.champ = d.champ
             d.time = +d.time;
             d.value = +d.value
+
+
         });
 
+        var nest  = d3.nest()
+            .key(function(d){
+            return d.champ
+        })
+        .entries(data)
+
+        var dataFiltered = nest.filter(function (d) { return d.key === name })
 
         // Scale the range of the data
         x.domain(d3.extent(data, function (d) {
             return d.time;
         }));
-        y.domain([0, d3.max(data, function (d) {
+        y.domain([0, d3.max(data, function(d) {
             return d.value;
         })]);
 
-        // Add the valueline path.
-        svg.append("path")
-            .data([data])
-            .attr("class", "line")
-            .attr("d", valueline);
+
+
 
         // Add the X Axis
         svg.append("g")
@@ -60,6 +67,15 @@ function runGold(name, lane) {
         // Add the Y Axis
         svg.append("g")
             .call(d3.axisLeft(y));
+                // Add the valueline path.
+        svg.selectAll(".line")
+            .data(dataFiltered)
+            .enter()
+            .append("path")
+                .attr("class", "line")
+                .attr("d", function(d) {
+                    return valueline(d.values)
+                });
 
     });
 }
