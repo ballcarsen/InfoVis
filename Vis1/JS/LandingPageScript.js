@@ -93,8 +93,8 @@ $(document).on('click',"#BotLane", function() {
     //window.location.href = "GoldTest.html"
     var Lane = d3.select("#BotLane");
     ColorArea(Lane);
-    //TODO call method for toplane winrate graph
-    BotLaneWinGraph();
+    
+    MakeRadioButtons();
 });
 //color lane with desired highlight and remove color from others
 function clear() {
@@ -127,11 +127,12 @@ function ColorArea(Lane) {
     console.log("1st time Lane selected");
 }
 
-//calling the functions for toplane win graphs
-//TODO linking the two thingies to call functions
-function JungleWinGraph() {
-    console.log("JungleLane")
-}
-function BotLaneWinGraph() {
-    console.log("botLane")
+//TODO radio button for support and adc winrates
+function MakeRadioButtons() {
+    var adc = document.getElementById("#winRateChart").createElement("INPUT");
+    adc.setAttribute("type", "radio");
+    adc.checked = true;
+    
+    var sup = document.getElementById("#winRateChart").createElement("INPUT");
+    sup.setAttribute("type", "radio");
 }
